@@ -1,0 +1,50 @@
+.hr .container > .content
+{
+	width:80%;
+	margin:0 auto 30px auto;
+	/*max-width:1080px*/
+	
+
+}
+
+.hr .tab
+{
+	width:125%;
+	background:url(../../img/hr_bc.png) no-repeat;
+	background-size:100% 100%;
+	margin-left:-12.5%;
+	padding-top:30px;
+	padding-bottom: 30px;;
+}
+
+.hr .container > .content .hr_list
+{
+	width:50%;
+	margin:0 auto;
+	
+}
+.hr .container > .content .hr_list table
+{
+	width:100%;
+}
+
+.hr .container > .content .hr_list table tr
+{
+	height:40px;
+	text-align: center;
+
+}
+
+.hr .container > .content .hr_list table tr td
+{
+	width:170px;
+	font-size: 17px;
+	font-weight:600
+}
+
+
+.hr .container > .content a
+{
+	width:100%;
+	text-decoration: none;
+}

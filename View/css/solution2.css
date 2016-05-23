@@ -1,0 +1,392 @@
+.solution2 .content .tab .useful .useful_line *:before,.solution .content .production .gray .text:before,.solution .content .production .white .text:before,.solution .content .production .black .text:after
+{
+	content:"●";
+	/*content:".";*/
+	font-size:3px;
+	color:#878787;
+	margin:0 4px; 
+	text-align:center;
+}
+.solution2 .content .tab
+{
+	background: url(../img/tab_poster.png);
+	background-size:100% 100%;
+	width:125%;
+	margin-left:-12.5%;
+	/*height:800px;*/
+	overflow: hidden;
+}
+
+.solution2 .content .kuan
+{
+	width:80%;
+	margin:0 auto;
+	padding-top:60px;
+	height:100%;
+}
+
+.solution2 .content .tab .name
+{
+	height:120px;
+	wdith:100%;
+    /*margin-top:30px;*/
+	text-align:center;	
+}
+
+.solution2 .content .tab .name .cn
+{
+	font-size:50px;
+	margin:0;
+}
+
+.solution2 .content .tab .name .en
+{
+	color:#7e7e7e;
+	font-size:20px;
+	margin:0;
+}
+
+.solution2 .content .tab .slogn
+{
+	height:40px;
+	text-align: center;
+	font-size:24px;
+	color:#c1c2c4;
+}
+
+.solution2 .content .tab .useful
+{
+    /*height:100px;*/
+       margin: 25px 0;
+	text-align:center;
+	color:#e0e0e2;
+	    overflow: hidden;
+	    zoom: 1;
+}
+
+.solution2 .content .tab .useful .useful_line
+{
+	width:60%;
+	margin:0 auto;
+	    height: 25px;
+	    line-height: 25px;
+	    /*color:#a3a3a5;*/
+}
+
+.solution2 .content .tab .useful .useful_line *
+{
+	float:left;
+	margin:2px 10px;
+	color:#a3a3a5;
+	font-size:14px;
+}
+
+.solution2 .content .production
+{
+	/*height:300px;*/
+	overflow: hidden;
+	zoom:1;
+	width:100%;	
+} 
+
+.solution2 .content .production >div
+{
+	float:left;
+	width:33%;
+}
+
+.solution2 .content .production .pic
+{
+	width:100%;
+}
+
+.solution2 .content .production .pic img
+{
+	width:100%;
+}
+
+.solution2 .content .production .white
+{
+	padding-top:80px;
+}
+
+.solution2 .content .production .black
+{
+	padding-top:135px;
+}
+
+.solution2 .content .production .white .text
+{
+	text-align: center;
+	width:100%;
+}
+
+.solution2 .content .production .black .text
+{
+	text-align:right;
+	width:90%;
+	/*padding-right:20px;*/
+}
+
+.solution2 .content .production .gray .text
+{
+	text-align: left;
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.solution2 .content .production  .text
+{
+	font-size:20px;
+	color:#8f9092;
+}
+
+.solution2 .content .information1
+{
+	height:400px;
+	width:100%;
+	margin-top:80px
+}
+
+.solution2 .content .information1 >.text
+{
+	width:80%;
+	float:left;
+	margin-top:70px
+}
+
+.solution2 .content .information1 >.text p
+{
+	font-size:16px;
+	/*width:80%;*/
+	margin:5px 0;
+}
+.solution2 .content  .information1 >.text .bold
+{
+	font-weight:600;
+}
+.solution2 .content  .information1 .pic
+{
+    width: 100px;
+    padding: 15px;
+    height: 130px;
+    float: right;
+    background: url(../img/fangkuang.png) no-repeat;
+    background-size: 100% 100%;
+}
+.solution2 .content  .information1 .pic .text
+{
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    
+}
+
+.solution2 .content  .information2
+{
+	overflow: hidden;
+}
+.solution2 .content  .information2 .pic
+{
+    width: 100px;
+    padding: 15px;
+    height: 130px;
+    float:left;
+    background: url(../img/fangkuang.png) no-repeat;
+    background-size: 100% 100%;
+}
+.solution2 .content  .information2 .pic .text
+{
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    
+}
+
+
+.solution2 .content .information2 .piclist
+{
+	width:80%;
+	/*height:200px;*/
+	float:right;
+	margin-top:50px;
+}
+.solution2 .content  .information2 .piclist img
+{
+	width:100%;
+}
+.solution2 .content .information2 .text_list
+{
+	width:100%;
+	height:20px;
+}
+.solution2 .content .information2 .text_list .text_item
+{
+	width:44%;
+	margin:0 3%;
+	float:left
+}
+
+.solution2 .content .information3 .kuang
+{
+	width:100%;
+	height:300px;
+	background: url(../img/system_kuang.png)no-repeat;
+	background-size: 80% 100%;
+    background-position: center;
+    margin-top:30px;
+	
+}
+
+.solution2 .content .information3 .kuang .head
+{
+	 text-align: center;
+    font-size: 50px;
+    line-height: 170px;
+    font-weight: 600;
+    height:170px;
+    color:#898989;
+}
+.solution2 .content .information3 .kuang .slogn
+{
+	margin:0;
+	text-align: center;
+	font-size: 20px;
+	color:#a1a1a1;
+}
+
+.solution2 .content .information3 .kuang .text
+{
+		margin-top:20px;
+}
+
+.solution2 .content .information3 .kuang .text p
+{
+	margin:0;
+	text-align: center;
+	color:#b1b5b4;
+
+}
+
+.solution2 .content  .information4
+{
+	width:100%;
+	overflow:hidden;
+	margin-top:30px;
+}
+
+.solution2 .content  .information4 img
+{
+	width:100%;
+}
+
+.solution2 .content  .information5
+{
+	position:relative;
+	width:100%;
+	height:100px;
+}
+
+.solution2 .content  .information5 .line
+{
+	height:1px;
+	margin-top:50px;
+	border-top:1px solid #8a8a8a;
+	width:25%;
+	/*color:#8a8a8a;*/
+}
+.solution2 .content  .information5 .text
+{
+	width:50%;
+	position: absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	text-align:center;
+	font-size:30px;
+	line-height:100px;
+	color:#8a8a8a;
+}
+/*.solution*/
+
+
+.solution2 .content  .information6
+{
+	width:100%;
+	overflow:hidden;
+}
+
+.solution2 .content  .information6 img
+{
+	width:100%;
+}
+
+.solution2 .content  .information7
+{
+	width: 100%;
+    height: 95px;
+    margin-top:50px;
+}
+
+.solution2 .content  .information7 .kuang
+{
+	background: url(../img/productionreg.png) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+	
+}
+
+.solution2 .content  .information7 .kuang .title
+{
+	text-align: center;
+    font-size: 30px;
+    /* background-color: white; */
+    color: #898989
+}
+
+.solution2 .content  .information7 .kuang .text
+{
+	font-size: 17px;
+    text-align: center;
+    color: #e3e3e3;
+    margin-top: 5px;
+}
+
+.solution2 .content  .information8
+{
+	margin-top:30px;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+
+.solution2 .content  .information8 img
+{
+	width:100%;
+}
+
+.solution2 .content  .information8 .text
+{
+	position: absolute;
+    top: 54%;
+    left: 41.5%;
+    text-align: center;
+   
+    width: 20%;
+    height: 27%;
+}
+.solution2 .content  .information8 .text table
+{
+	height: 100%;
+	color:white;
+}
+.solution2 .content  .information8 .text td
+{
+	 font-size: 28px;
+	 vertical-align: middle;
+	 color:#9E7C7C;
+}

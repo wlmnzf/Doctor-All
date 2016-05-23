@@ -1,0 +1,510 @@
+.info4 .container > .content .tab
+{
+	width:125%;
+	margin-left:-12.5%;
+	position:relative;
+}
+
+.info4 .container > .content .tab > img:first-child
+{
+	width:100%;
+}
+
+.info4 .container > .content .tab .wen_content
+{
+    position: absolute;
+    top: 0;
+    width: 24%;
+    left: 61%;
+}
+
+.info4 .container > .content .tab .wen_content .text
+{
+/*	position: absolute;
+    top: 0;
+    width: 23%;
+    left: 62%;*/
+    width: 100%;
+}
+
+.info4 .container > .content .tab .wen_title
+{
+	position: absolute;
+    top: 18%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 45px;
+    color: #878787;
+    font-weight: 500;
+}
+
+.info4 .container > .content .tab .wen_wen1
+{
+        position: absolute;
+    top: 44%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.info4 .container > .content .tab .wen_wen1 label,.info4 .container > .content .tab .wen_wen2 label,.info4 .container > .content .tab .wen_wen3 label
+{
+	 font-size: 22px;
+    color: #878787;
+    font-weight: 500;
+}
+
+.info4 .container > .content .tab .wen_wen2
+{
+    position: absolute;
+    top: 58.5%;
+    width: 100%;
+    /* left: 66%; */
+    /* right: 0; */
+    text-align: center;
+}
+
+
+.info4 .container > .content .tab .wen_wen3
+{
+    position: absolute;
+    top: 73%;
+    width: 100%;
+    /* left: 66%; */
+    /* right: 0; */
+    text-align: center;
+}
+
+
+.info4 .container > .content .tab .production
+{
+	    width: 40%;
+	position: absolute;
+    bottom: 22%;
+    left: 15%;
+    right: 0;
+}
+
+.info4 .container > .content .kuan
+{
+	width:125%;
+	margin-left:-12.5%;
+	overflow: hidden;
+	/*width:100%;*/
+	/*height:550px;*/
+	background-color:#f0f0f0;
+	
+	position: relative;
+	padding:20px 0;
+}
+
+.info4 .container > .content .show
+{
+	width:80%;
+	margin:0 auto;
+}
+
+.info4 .container > .content .show .name
+{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    color: #9b9796;
+    
+    padding-top: 20px;
+}
+
+.info4 .container > .content .show .kuang
+{
+	margin-top:30px;
+	width:70%;
+	height:130px;
+	background: url(../img/productionreg.png);
+	background-size:100% 100%;
+	margin:40px auto;
+	text-align:center;
+	
+	position:relative;
+}
+
+.info4 .container > .content .show .kuang .head
+{
+	color: #9b9796;
+    font-size: 30px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9px 
+}
+
+.info4 .container > .content .show .kuang .text
+{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    color: #9b9796;
+    font-size: 35px;
+}
+
+
+
+.info4 .container > .content .show .product_list
+{
+	overflow: hidden;
+	width: 90%;
+    margin: 20px auto;
+}
+
+.info4 .container > .content .show .product_list .product_item
+{
+	width:24%;
+	float:left;
+}
+.info4 .container > .content .show .product_list .product_item img
+{
+	width:100%;
+}
+
+.info4 .container > .content .oppsite
+{
+	width:100%;	
+}
+
+.info4 .container > .content .oppsite .name
+{
+	/*width:100%;*/	
+	font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    color: #9b9796;
+    
+    padding-top: 20px;
+}
+
+
+
+.info4 .container > .content .oppsite .kuang
+{
+	margin-top:30px;
+	width:70%;
+	height:130px;
+	background: url(../img/productionreg.png);
+	background-size:100% 100%;
+	margin: 40px auto 10px auto;
+	text-align:center;
+	
+	position:relative;
+}
+
+.info4 .container > .content .oppsite .kuang .head
+{
+	color: #9b9796;
+    font-size: 30px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9px 
+}
+
+.info4 .container > .content .oppsite .kuang .text
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+
+.info4 .container > .content .oppsite .kuang .text *
+{
+	 color: #9b9796;
+    font-size: 17px;
+}
+
+.info4 .container > .content .oppsite .pic
+{
+	width:100%;
+	
+}
+.info4 .container > .content .oppsite .pic img
+{
+	width:100%;
+}
+
+
+
+
+
+.info4 .container > .content .topic 
+{
+	font-size:40px;
+	text-align: center;
+	color:#9b9796;
+	border-bottom:1px solid black ;
+	height：60px;
+	line-height:60px;
+}
+
+
+.info4 .container > .content .description
+{
+	font-size:20px;
+	text-align: center;
+	color:#9b9796;
+	height：35px;
+	line-height:35px;
+}
+
+.info4 .container > .content .function
+{
+	width:100%;
+	height:500px;
+	background:url(../img/center_poster.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.info4 .container > .content .left_side
+{
+	width:35%;
+	float:left;
+	height:100%;
+	
+}
+
+
+.info4 .container > .content .left_side .pic
+{
+	background: url(../img/center_production.png) no-repeat;
+	width:150px;
+	height:150px;
+	margin:0 auto;
+	background-size:100% 100%;
+	margin-top:60px;
+}
+
+.info4 .container > .content .left_side .text
+{
+	height:290px;
+}
+
+.info4 .container > .content .left_side .title
+{
+	width:95%;
+	margin:0 auto;
+	text-align: center;
+	font-size:30px;
+	height:50px;
+	line-height:50px;
+	border-bottom:2px #878787 solid;
+	color:#878787;
+}
+
+.info4 .container > .content .left_side .slogn
+{
+	width:95%;
+	margin:0 auto;
+	text-align: center;
+	font-size:20px;
+	height:50px;
+	line-height:50px;
+	border-bottom:1px #878787 solid;
+	color:#878787;
+}
+
+.info4 .container > .content .left_side .text ul
+{
+	list-style: none;
+	border-bottom:2px #878787 solid;
+	padding:20px 0;
+	/*padding-bottom:20px;*/
+	width:95%;
+	margin:0 auto;
+}
+.info4 .container > .content .left_side .text ul li
+{
+	/*font-size:*/
+	color:#878787;
+	font-size: 15px;
+	height:23px;
+}
+
+.info4 .container > .content .left_side .text ul li:before
+{
+	content:"●";
+	font-size:7px;
+	color:#878787;
+	margin:0 4px; 
+	text-align:center;
+}
+
+.info4 .advantage 
+{
+	width:100%;
+	height:300px;
+	padding-top:70px;
+}
+
+/*.info4*/ 
+.info4 .advantage  .title
+{
+	width:100%;
+	height:60px;
+	text-align: center;
+	font-size:55px;
+	line-height:60px;
+	color:#9b9796;
+	margin:15px 0;
+	
+}
+
+
+.info4 .advantage .kuang
+{
+	width:70%;
+	height:130px;
+	background: url(../img/productionreg.png);
+	background-size:100% 100%;
+	margin:0 auto;
+	text-align:center;
+	
+	position:relative;
+}
+
+.info4 .advantage .kuang .head
+{
+	color:#9b9796;
+	font-size: 30px;
+	margin:0 auto;
+	
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px
+	/*margin-top:-20px;*/
+}
+
+.info4 .advantage .kuang .text
+{
+	position: absolute;
+    top: 22px;
+    left: 0;
+    right: 0;
+
+}
+
+.info4 .advantage .kuang .text *
+{
+	color: #9b9796;
+    font-size: 20px;
+    line-height:15px;
+}
+
+.info4 .babys
+{
+	height:1400px;
+	width:100%;
+}
+
+.info4 .babys .baby_item
+{
+	height:350px;
+	width:100%;
+}
+
+.info4 .baby1
+{
+	background: url(../img/baby1.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.info4 .baby2
+{
+	background: url(../img/baby2.png) no-repeat;
+	background-size:100% 100%;
+}
+
+
+.info4 .baby3
+{
+	background: url(../img/baby3.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.info4 .baby4
+{
+	background: url(../img/baby4.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.info4 .babys .baby_item .text
+{
+	width:50%;
+	height:100%;
+	text-align:center;
+	
+}
+.info4 .container > .content .baby_item .text *
+{
+	font-size:20px;
+	color:#9b9796;
+}
+
+.info4 .container > .content .left
+{
+	float:left;
+}
+
+.info4 .container > .content .right
+{
+	float:right;
+}
+
+.info4 .container > .content .baby_item .text p:first-child:before
+{
+    content:"●";
+	font-size:3px;
+	color:#878787;
+	margin:0 4px; 
+	text-align:center;
+}
+
+.info4 .container > .content .procedure
+{
+	width:100%;
+	/*height:200px;*/
+}
+
+.info4 .container > .content .procedure img
+{
+	width:100%;
+}
+
+.info4 .container > .content .backhome
+{
+	width:100%;
+	height:500px;
+	background:url(../img/backhome.png) no-repeat;
+	background-size:100% 100%;
+	position: relative;
+	margin-top:30px
+}
+
+.info4 .container > .content .backhome .text
+{
+	width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 44%;
+    
+}
+.info4 .container > .content .backhome .text p
+{
+	    font-size: 40px;
+    margin: 0;
+}

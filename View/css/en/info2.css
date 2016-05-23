@@ -1,0 +1,78 @@
+.info2 .together
+{
+	/*background:url(../../img/houbac.png) no-repeat;*/
+	width:125%;
+	/*height:400px;*/
+	
+	/*background-size: 100% 100%;*/
+    margin-left: -12.5%;
+    position:relative;
+}
+
+.info2 .together img
+{
+	width:100%;
+}
+
+.info2  .container > .content .diamond
+{
+	position:absolute;
+	top: 5%;
+    left: 0;
+    right: 0;
+}
+
+
+.info2  .container > .content .information
+{
+	position:absolute;
+	    top: 40%;
+	    width:80%;
+	    margin:0 auto;
+	    left:0;
+	    right:0;
+}
+
+.info2  .container > .content .information .picturelist
+{
+	width:100%;
+}
+
+.info2  .container > .content .information .picturelist div
+{
+	float:left;
+		width:28%;
+}
+
+.info2  .container > .content .information .picturelist .current 
+{
+	width:38%;
+	margin: 0 3%;
+}
+
+.info2  .container > .content .intro
+{
+	width:100%;
+	text-align: center;
+	font-size:50px;
+	    margin: 20px 0;
+    color: #babdc4;
+}
+.info2  .container > .content .name
+{
+	width:100%;
+	text-align: center;
+	    margin: 30px 0;
+
+}
+
+.info2  .container > .content .name label
+{
+	    color: #babdc4;
+	    	font-size:40px;
+}
+.info2 .container > .content .information .picture div
+{
+	width:33%;
+	float:left;
+}

@@ -1,0 +1,252 @@
+.indexpage .tab
+{
+	/*background: url(../img/poster.png) no-repeat;*/
+	/*width: 80%;*/
+	width:125%;
+	margin-left:-12.5%;
+    /*max-width: 1080px;*/
+    /*margin: 0 auto;*/
+    /*height*/
+   /*background-size: 100%;*/
+   /*height:500px;*/
+}
+
+/*.indexpage .tab img
+{
+	width:100%;
+}*/
+
+.indexpage .function
+{
+	/*width: 80%;*/
+	width:125%;
+    /*max-width: 1080px;*/
+    /*margin:0 auto;*/
+   margin-left:-12.5%;
+	
+	background-color:#e9e9eb;
+	/*width:100%;*/
+	height:150px;
+}
+.indexpage .function .icons 
+{
+	width:600px;
+	height:100%;
+	margin:0 auto;
+}
+
+.indexpage .function .icons div
+{
+	width:90px;
+	height:90px;
+	margin:30px;	
+	float:left;
+}
+
+.indexpage .function .icons .plus
+{
+	background:url(../img/plus.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.indexpage .function .icons .medicine
+{
+	background:url(../img/medicine.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.indexpage .function .icons .earth
+{
+	background:url(../img/earth.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.indexpage .function .icons .person
+{
+	background:url(../img/person.png) no-repeat;
+	background-size:100% 100%;
+}
+
+
+
+.indexpage .container > .content
+{
+	width: 80%;
+    /*max-width: 1080px;*/
+    margin:0 auto;
+    
+    /*height:492px;*/‘
+    background-color:#f6f6f6;
+    
+        /*overflow: hidden;*/
+}
+
+.indexpage .news
+{
+    overflow: hidden;
+    word-break:break-all;
+}
+
+.indexpage .news div
+{
+   float:left;	
+}
+
+.indexpage .container > .content .picture
+{
+	background:url(../img/doctor.png) no-repeat;
+	height:100%;
+	width:432px;
+	height:492px;
+	background-size:100% 100%;
+}
+
+.indexpage .container > .content .introduction
+{
+	width: 500px;/*写给不支持calc()的浏览器*/
+	width:-moz-calc(100% - 447px);
+	width:-webkit-calc(100% - 447px);
+	width: calc(100% - 447px);
+	
+	
+	height:350px;
+	margin-top:71px;
+	float:right;
+	
+}
+
+.indexpage .container > .content .introduction .title
+{
+	/*font-size:16px;
+	font-weight:bold;
+	margin-bottom:10px*/
+	font-size:25px;
+}
+
+
+.indexpage .container > .content > .line
+{
+	width:100%;
+	height:2px;
+	background-color: #93969f;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.indexpage .piclist
+{
+	width:80%;
+	/*max-width: 1080px;*/
+	margin:0 auto;
+	
+	height:170px;
+}
+
+.indexpage .piclist table
+{
+	width:100%;
+	height:100%;
+}
+
+.indexpage .piclist div
+{
+	width:33%;
+	height:100%;
+	float:left;
+}
+
+.indexpage .piclist div:first-child
+{
+	border-left:1px solid #93969f;
+}
+
+.indexpage .piclist div
+{
+	border-right:1px solid #93969f;
+	text-align: center;
+	/*vertical-align: center;*/
+	/*position:relative;*/
+}
+
+.indexpage .piclist div img
+{
+    width:85%;
+    /*position:absolute;
+    top:(50%);
+    margin-top:-40%;*/
+    
+    /*margin:0 auto;*/
+   /*vertical-align: center;*/
+}
+
+
+
+.indexpage .tab
+{
+/*	width:70%;
+	width:-moz-calc(100% -170px);
+	width:-webkit-calc(100% - 170px);
+	width: calc(100% - 170px);
+    background-color: white;
+    height: inherit;
+    float:left;*/
+    overflow: hidden;
+    position:relative;
+}
+
+.indexpage .left-arrow
+{
+    background: url(../img/arrow.png);
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 45%;
+    left: 15px;
+    z-index: 100;
+    cursor: pointer;
+    background-position: 0 100%;
+}
+
+.indexpage .right-arrow
+{
+    background: url(../img/arrow.png);
+    width: 30px;
+    height: 60px;
+    background-position: 30px 100%;
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    z-index: 100;
+    cursor: pointer;
+}
+.indexpage .glyphicon
+{
+	    font-size: 10px;
+    margin-right: 5px;
+}
+.indexpage .banner
+{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.indexpage .banner ul
+{
+	width:100%;
+	height:100%;
+	list-style: none;
+	position:relative;
+	padding:0;
+}
+.indexpage .banner li
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+.indexpage .banner li img
+{
+	width:100%;
+	/*height:100%;*/
+}

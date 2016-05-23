@@ -1,0 +1,10 @@
+.info1 .together
+{
+	background:url(../img/productback.png) no-repeat;
+	width:125%;
+	/*height:400px;*/
+	
+	background-size: 100% 100%;
+    margin-left: -12.5%;
+}
+

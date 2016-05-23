@@ -1,0 +1,113 @@
+ <form>
+  	 	
+  	  <div class="form-group">
+	  	<div class="split cn">
+	  		<label>中文</label>
+	  	</div>
+	  	
+	  	<div class="split en">
+	  		<label>英文</label>
+	  	</div>	
+	  </div>	
+  	 	
+<!-- 	  <div name="lang" class="form-group">
+	  	<div class="split cn">
+	        <input type="text" class="form-control" placeholder="请输入中文">
+	  	</div>
+	  	
+	  	<div class="split en">
+	        <input type="text" class="form-control" placeholder="请输入英文"/>
+	  	</div>	
+	  </div> -->
+	  
+	  
+	  <div class="form-group operation">
+	       <button type="button" class="btn btn-info add">添加</button>
+	       <button type="button" class="btn btn-success save">保存</button>
+	  </div>
+	  
+
+	</form>
+     <script>
+   $(document).ready(function(){
+   	   var remark="head";
+
+   	   var node='<div name="lang" class="form-group animated bounceInLeft">'
+           node+='<div class="split cn">'
+           node+='<input type="text" maxlength="11" class="form-control" placeholder="请输入中文">'
+           node+='</div>'
+           node+='<div class="split en">'
+           node+='<input type="text" maxlength="11" class="form-control" placeholder="请输入英文"/>'
+           node+='</div>'
+           node+='</div>'
+
+      $.ajaxSetup({
+         contentType: "application/x-www-form-urlencoded; charset=utf-8"
+        });
+
+
+ 	   $.post("{:U('Doctor/Manage/encn_init','','')}",
+            {
+              name:remark
+            },
+            function(data,status){
+              // data=unescape(data);
+              console.log(data);
+              var json=JSON.parse(unescape(data.info.json));
+              var len=json.length;
+              if(len>0)
+              {
+              	for(var i=0;i<len;i++)
+              	{
+              		var node_cpy=$(node).clone();
+              		node_cpy.find(".cn input").val(json[i].cn);
+              		node_cpy.find(".en input").val(json[i].en);
+              		$(".operation").before(node_cpy);
+              	}
+              }
+              else
+              {
+              	 $(".add").click();
+              }
+            });
+
+
+
+      $(".add").click(function(){
+            $(".operation").before(node);
+      })
+
+
+      $(".save").click(function(){
+
+
+          var info=new Object()
+          info.length=0;
+          var lang=document.getElementsByName("lang")
+          for(var i=0;i<lang.length;i++)
+          {
+          	var cn=$(lang[i]).find(".cn input").val();
+          	var en=$(lang[i]).find(".en input").val();
+          	if(cn==""||cn==null||cn==undefined||en==""||en==null||en==undefined)
+          		continue;
+            var lang_pair=new Object();
+            lang_pair.cn=cn;
+            lang_pair.en=en;
+            info[info.length]=lang_pair;
+            info.length++;
+          }
+          // info.length=lang.length;
+          // alert(JSON.stringify(info));
+          $.post("{:U('Doctor/Manage/encn_save','','')}",
+            {
+              name:remark,
+              info:escape(JSON.stringify(info))
+            },
+            function(data,status){
+              alert("Data: " + unescape(data) + "\nStatus: " + status);
+            });
+          })
+
+    
+   })  
+  </script>

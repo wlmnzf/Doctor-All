@@ -1,0 +1,319 @@
+.info3 .container > .content
+{
+	margin-top:50px;
+}
+.info3  p
+{
+	margin:0;
+	padding:0;
+	height:20px;
+}
+.info3 .container > .content .tab
+{
+	/*background:url(../img/shuye2.png) no-repeat;*/
+	width:100%;
+	/*margin: 0 auto;*/
+	
+	/*height:600px;*/
+	    overflow: hidden;
+	    zoom:1;
+	background-size:100% 100%;
+}
+
+.info3 .container > .content .tab img
+{
+   width:100%;	
+}
+.info3 .container > .content .question
+{
+	width:100%;
+	height:150px;
+}
+
+.info3 .container > .content .pic
+{
+	width:100%;
+	height:100px;
+	position: relative;
+}
+
+.info3 .container > .content .pic .line
+{
+	width:30%;
+	border-top:2px #ebebeb solid;
+	height:1px;
+	margin-top:75px;
+}
+
+.info3 .left
+{
+	float:left;
+}
+
+.info3 .right
+{
+	float:right;
+}
+
+.info3 .container > .content .pic .kuang
+{
+	width:35%;
+	margin:25px auto 0 auto;
+	height:60px;
+	
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 45px auto 0 auto;
+    
+    
+    background-color: #ebebeb;
+    
+    text-align:center;
+    line-height:60px;
+    font-size:28px;
+    color:#616161;
+}
+
+.info3 .container > .content .question .text
+{
+	text-align: center;
+	width:100%;
+	margin-top:22px;
+	font-size:23px;
+	color:#d5d3d4;
+}
+
+.info3 .container > .content .problemlist
+{
+	width:100%;
+	/*height:500px;*/
+    overflow: hidden;
+    zoom:!;
+	margin-top:55px
+}
+
+.info3 .container > .content .problemlist .problem
+{
+	width:20%;
+	margin:0 2.5%;
+	float:left;
+    height:auto;
+}
+
+.info3 .container > .content .problemlist .problem .pic
+{
+	width:100%;
+	height:auto;
+}
+
+.info3 .container > .content .problemlist .problem .pic img
+{
+	width:100%
+}
+
+.info3 .container > .content .problemlist .problem .text
+{
+	width:100%;
+	text-align: center;
+	height:20px;
+	color:#b4b2b3;
+	font-size:15px;
+}
+.info3 .container > .content .data_text
+{
+	width:100%;
+	height:65px;
+	background-color:#efefef;
+	position:relative;
+	    margin: 30px 0;
+}
+.info3 .container > .content .data_text .line
+{
+	width:30%;
+	border-top:2px #c4c4c4 solid;
+	height:3px;
+	margin-top:32px;
+}
+
+.info3 .container > .content .data_text .text
+{
+	text-align: center;
+	line-height: 65px;
+	position: absolute;
+    left: 0;
+    right: 0;
+    color:#8b898a;
+    font-weight: 500;
+    font-size:20px;
+}
+
+.info3 .container > .content .sample
+{
+	width:100%;
+	height:500px;
+	text-align: center;
+	line-height:500px;
+}
+
+
+.info3 .container > .content .feature
+{
+	width:100%;
+	height:150px;
+}
+
+.info3 .container > .content .feature_slogn
+{
+	text-align: center;
+}
+
+.info3 .container > .content .feature .kuang
+{
+	width:70%;
+	height:130px;
+	background: url(../img/productionreg.png);
+	background-size:100% 100%;
+	margin:0 auto;
+	text-align:center;
+	
+	position:relative;
+}
+
+.info3 .container > .content .feature .kuang .head
+{
+	color:#b1afb0;
+	font-size: 60px;
+	margin:0 auto;
+	
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: -30px
+	/*margin-top:-20px;*/
+}
+
+.info3 .container > .content .feature .kuang .text
+{
+	position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    color: #d0d0d0;
+    font-size: 20px
+}
+
+.info3 .container > .content .feature_list 
+{
+	/*margin-top:70px;*/
+	width:90%;
+	height:200px;
+    margin:50px auto 0 auto;
+}
+
+.info3 .container > .content .feature_list  .feature_slogn
+{
+	text-align: center;
+}
+
+.info3 .container > .content .feature_list  .feature_item
+{
+	width:24.5%;
+	height:100%;
+	border-left:2px solid #aeaeae;
+	float:left;
+	text-align: center;
+	line-height:20px;
+}
+
+.info3 .container > .content .feature_list  .feature_item  table
+{
+	width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+
+.info3 .container > .content .feature_list  .feature_item:first-child
+{
+	border-left:none;
+}
+
+
+.info3 .container > .content .feature_detail_list 
+{
+	margin-top:70px;
+}
+
+.info3 .container > .content .feature_detail_list .feature_detail_item
+{
+	width:100%;
+	/*height:410px;*/
+	    overflow: hidden;
+	    zoom:1;
+}
+
+
+
+.info3 .container > .content .feature_detail_list .item_detail_1 img
+{
+	width:100%;
+}
+
+.info3 .container > .content .feature_detail_list .item_detail_1 .text
+{
+	text-align: center;
+	height:100px;
+	line-height: 100px;
+	font-size:20px;
+	color:#666666;
+}
+
+
+.info3 .container > .content .feature_detail_list .item_detail_2 img
+{
+	width:50%;
+	height:100%;
+}
+
+.info3 .container > .content .feature_detail_list .item_detail_2 .text
+{
+	width:50%;
+	text-align: center;
+	height:100%;
+	line-height: 410px;
+	font-size:20px;
+	color:#666666;
+}
+
+
+.info3 .container > .content .feature_detail_list .item_detail_3 img
+{
+	width:100%;
+}
+
+.info3 .container > .content .feature_detail_list .item_detail_3 .text
+{
+	text-align: center;
+	height:100px;
+	line-height: 100px;
+	font-size:20px;
+	color:#666666;
+}
+
+.info3 .container > .content .feature_detail_list .item_detail_4 img
+{
+	width:50%;
+	height:100%;
+}
+
+.info3 .container > .content .feature_detail_list .item_detail_4 .text
+{
+	width:50%;
+	text-align: center;
+	height:100%;
+	line-height: 410px;
+	font-size:20px;
+	color:#666666;
+}	

@@ -1,0 +1,42 @@
+.manage .container form .split
+{
+	width:40%;
+}
+
+.manage .container form .cn
+{
+	float:left;
+}
+
+.manage .container form .en
+{
+	float:right;
+}
+
+.manage .container form > .form-group 
+{
+	overflow: hidden;
+	margin-bottom:10px;
+	
+	-vendor-animation-duration: 3s;
+    -vendor-animation-delay: 2s;
+    -vendor-animation-iteration-count: infinite;
+}
+	
+
+.manage .container form .add
+{
+	min-width:100px;
+	margin-top:20px;
+}
+
+.manage .container form .save
+{
+	min-width:100px;
+	margin-top:20px;
+}
+
+/*.manage .container form > .form-group :first-child
+{
+	margin-bottom:0px;
+}*/

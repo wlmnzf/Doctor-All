@@ -1,0 +1,85 @@
+.aboutus .map
+{
+	width: 90%;
+	/*max-width: 1080px;*/
+	margin:100px auto 0 auto;
+	position:relative;
+	/*background:url(../img/map.jpg) no-repeat;*/
+}
+
+.aboutus .map img
+{
+	width:100%;
+}
+.aboutus .map div
+{
+	position:absolute;
+	font-weight: 500
+}
+
+.aboutus  .container > .content
+{
+	width:80%;
+	margin:0 auto;
+	/*max-width:1080px;*/
+}
+
+
+.aboutus .container > .content .title
+{
+	/*display:inline-block;*/
+	font-size:23px;
+	margin-left:10px;
+}
+
+.aboutus .container > .content .together
+{
+	width:80%;
+	margin:0 auto;
+}
+
+.aboutus .container > .content .ps
+{
+	text-align:center;
+	color:#afadae;
+	font-size:12px;
+	
+}
+.aboutus .america
+{
+	top: 19%;
+    left: 13%;
+}
+
+.aboutus .sweden
+{
+	top: 9%;
+    left: 43%;
+}
+
+.aboutus .hangzhou
+{
+	top: 32%;
+    left: 59%;
+}
+
+.aboutus .shenzhen
+{
+	top: 39%;
+    left: 57%;
+}
+
+.aboutus .shanghai
+{
+	top: 29%;
+    left: 67%;
+}
+/*.aboutus .container > .content .ps:before
+{
+	content:"●";
+
+	font-size:3px;
+	color:#878787;
+	margin:0 4px; 
+	text-align:center;
+}*/

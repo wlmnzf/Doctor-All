@@ -1,0 +1,67 @@
+.partner .container > .content
+{
+	margin-top:50px;
+	/*padding-left:20px ;*/
+}
+.partner .container > .content .partneritem 
+{
+	width:60%;
+	height:50px;
+	margin:0 auto;
+	/*max-width:1080px;*/
+	
+	/*border-left:2px #babdc4 solid;*/
+	position:relative;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.partner .container > .content .line
+{
+	width:2px;
+	height:100px;
+	border-left:2px #babdc4 solid;
+	float: left;
+    margin-top: -20px;
+}
+
+
+.partner .container > .content .circle
+{
+	width:6px;
+	height:6px;
+	border-radius: 10px;
+	border:2px #babdc4 solid;
+	
+	top:22px;
+	position:absolute;
+	margin-left:-6px;
+	z-index:999;
+	background-color:white ;
+}
+
+.partner .container > .content  .partneritem .logo
+{
+    width:auto;
+}
+
+.partner .container > .content  .partneritem  img
+{
+	width:200px;
+	height:40px;
+	margin-top:5px;
+	
+	margin-left:50px;
+	float:left;
+	
+}
+
+.partner .container > .content  .partneritem  .name
+{
+	float:left;
+	line-height:50px;
+	margin-left:30px;
+	
+	font-size:17px;
+	font-weight:600;
+}

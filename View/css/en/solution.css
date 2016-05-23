@@ -1,0 +1,16 @@
+.solution .banner
+{
+	height:100px;
+	background-color:#f0f0f0;
+	width:125%;
+	margin-left:-12.5%;
+	position:relative;
+	    padding-bottom: 15px;
+}
+
+.solution .container > .content
+{
+	width:80%;
+	/*max-width:1080px;*/
+	margin:0 auto;
+}

@@ -1,0 +1,105 @@
+.detail_hr .container > .content
+{
+	width:80%;
+	/*max-width: 1080px;*/
+	margin:0 auto;
+	margin-top:40px;
+	overflow: hidden;
+}
+
+.detail_hr .container > .content .nav
+{
+	width:20% ;
+	background-color:#f6f6f6 ;
+	padding:20px 0;
+	float:left;
+}
+
+
+.detail_hr .container > .content .nav div
+{
+	text-align: center;
+	font-size: 15px;
+	height:30px;
+	text-align:30px;
+	padding
+}
+
+.detail_hr .container > .content .nav div:first-child
+{
+	color:#204073;
+    position:relative;
+}
+
+.detail_hr .container > .content .nav div:first-child img
+{
+	width: 20px;
+    position: absolute;
+    left: 20%;
+}
+
+
+.detail_hr .container > .content .information
+{
+	background-color:#f6f6f6 ;
+	width:75%;
+	float:right;
+	margin-bottom:50px;
+}
+
+
+.detail_hr .container > .content .information .title
+{
+	font-size:30px;
+	height:70px;
+	line-height: 70px;
+	padding-left:30px;
+}
+
+.detail_hr .container > .content .information .line
+{
+	width: 100%;
+	height:1px;
+	border-top:3px solid #e4e6e5 ;
+	/*border-bottom:1px solid black ;*/
+}
+
+
+.detail_hr .container > .content .information .require
+{
+	width:100%;
+	padding-left:30px;
+}
+
+
+.detail_hr .container > .content .information .require div
+{
+	margin:40px 0;
+}
+
+.detail_hr .container > .content .information .require button
+{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+    background-color: #88b9e1;
+    color:white;
+    border-radius: 3px;;
+}

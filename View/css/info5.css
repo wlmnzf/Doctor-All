@@ -1,0 +1,72 @@
+.info5 .content
+{
+	width:80%;
+	/*max-width:1080px;*/
+	margin:0 auto;
+	
+	min-height:300px;
+}
+
+.info5 .content .text
+{
+	width:33%;
+	text-align: center;
+	margin-top:30px;
+	float:left;
+}
+
+.info5 .content .text .head
+{
+	font-size: 25px;
+	font-weight: 600;
+	height:35px;
+	text-align:center;
+	
+	margin:3px;
+	/*padding:0 10px 0 10px;*/
+}
+
+.info5 .content .text .line
+{
+   width:70%;
+   height:3px;
+   background-color:black;
+   margin:5px auto;
+   
+   
+}
+
+.info5 .content .text .english
+{
+   margin:0 auto;
+   font-weight:600;
+   text-align:center;
+   line-height: 30px;
+   margin:3px;
+}
+
+.info5 .content .text ul
+{
+   margin-top:40px;
+   /*text-align: left;*/
+   /*list-style: none;*/
+   padding:0;
+}
+
+.info5 .content .text ul li
+{
+  font-weight: 600;
+  font-size:16px;
+  width:50%;
+  margin:10px auto;
+}
+
+/*.info5 .content .text ul li:before
+{
+		content:"●";
+
+	font-size:3px;
+	color:#878787;
+	margin:0 4px; 
+	text-align:center;
+}*/

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" href="__CSS__/global.css" />
+		<link rel="stylesheet" href="__CSS__/index.css" />
+		<script src="__CSS__/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="__CSS__/bower_components/jquery.cookie/jquery.cookie.js"></script>
+		<script src="__JS__/lang.js"></script>
+		<script src="__JS__/index.js"></script>
+	</head>
+	<body class="indexpage">
+		<!-- <input id="encn_src" type="hidden" value="{:U('Doctor/Index/get_encn','','')}"/>
+        <input id="encn_val" type="hidden" value="{$encn_json}"/> -->
+
+		<div  class="container">
+		
+		<include file="./Application/Doctor/View/Global/head.html" />
+
+		<!-- <include file="{:U('Doctor/Global/head','','')}" /> -->
+
+		<div id="content" class="content">
+		<!--<div class="tab"></div>-->
+			<!-- <div class="tab"><img  src="__IMG__/poster.png" /></div> -->
+
+			<div class="tab">
+				<div class="left-arrow"></div>
+				<div class="banner">
+					<ul>
+						<li><img  src="__IMG__/poster.png" /></li>
+						<li><img  src="__IMG__/poster1.jpg" /></li>
+						<li><img  src="__IMG__/poster2.jpg" /></li>
+					</ul>
+				</div>
+				<div class="right-arrow"></div>
+			</div>
+
+
+			
+			<div class="function">
+				<div class="icons">
+					<div class="plus"></div>
+					<div class="medicine"></div>
+					<div class="earth"></div>
+					<div class="person"></div>
+				</div>
+			</div>
+			
+			<div class="news">
+				<div class="picture"></div>
+				<div class="introduction">
+					<h1 class="title">新闻中心</h1>
+					<div class="news">新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻</div>
+				</div>
+			</div>
+			
+			
+			<div class="line"></div>
+			
+			<div class="piclist">
+				<div>
+					<table><th><td>
+						<img src="__IMG__/1.png"/>
+					</td></th></table>
+				</div>
+				<div>
+					<table><th><td>
+						<img src="__IMG__/2.png"/>
+					</td></th></table>
+				</div>
+				<div>
+					<table><th><td>
+						<img src="__IMG__/3.png"/>
+					</td></th></table>
+				</div>
+			</div>
+		
+		</div>
+		
+		<include file="./Application/Doctor/View/Global/footer.html" />
+		
+		
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="__CSS__/bower_components/bootstrap/dist/css/bootstrap.min.css"  />
+		<!--<link rel="stylesheet" href="__CSS__/bower_components/bootstrap/dist/css/bootstrap-theme.min.css"  />-->
+		<link rel="stylesheet" href="__CSS__/manage.css"/>
+		<link rel="stylesheet" href="__CSS__/bower_components/animate.css/animate.css"/>
+		<script src="__CSS__/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="__CSS__/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="__JS__/manage.js"></script>
+	</head>
+	<body class="manage">
+		
+		
+	<div class="bs-example">
+    <nav id="navbar-example" class="navbar navbar-default navbar-static">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">创辉后台管理</a>
+        </div>
+        <div class="collapse navbar-collapse bs-example-js-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!--<li class="dropdown">
+              <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>-->
+            <li class="dropdown">
+              <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                中英文切换
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-page" aria-labelledby="drop2">
+                <li data-src="{:U('Doctor/Manage/head','','')}"   class="dropdown-page-item"><a href="#">头部</a></li>
+                <li data-src="{:U('Doctor/Manage/footer','','')}" class="dropdown-page-item"><a href="#">尾部</a></li>
+                <li data-src="{:U('Doctor/Manage/content','','')}" class="dropdown-page-item"><a href="#">其余内容</a></li>
+                <!--<li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>-->
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="fat-menu" class="dropdown">
+              <a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop3">
+                <li><a href="#">个人信息</a></li>
+                <!--<li><a href="#"></a></li>-->
+               <!-- <li><a href="#">Something else here</a></li>-->
+                <li role="separator" class="divider"></li>
+                <li><a href="#">退出</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav> <!-- /navbar-example -->
+  </div>
+  
+ <div class="container">
+
+</div>        
+
+        
+        
+	</body>
+</html>

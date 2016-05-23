@@ -1,0 +1,16 @@
+.aboutus2 .container > .content .text
+{
+	text-align: center;
+	margin:20px 0;
+	font-size:18px;
+}
+
+.aboutus2 .container > .content .text:before
+{
+	content:"●";
+	/*content:".";*/
+	font-size:3px;
+	color:#878787;
+	margin:0 4px; 
+	text-align:center;
+}

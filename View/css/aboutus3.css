@@ -1,0 +1,10 @@
+.aboutus3 .container > .content ul
+{
+	    width: 50%;
+    margin: 20px auto;
+}
+
+.aboutus3 .container > .content ul li
+{
+	font-size:18px;
+}

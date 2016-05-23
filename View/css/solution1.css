@@ -1,0 +1,468 @@
+.solution1 .introduction .slide .text table td:before,.solution1 .information .name:before,.solution1 .intro_detail .detail_item .text table td:before,.solution1 .pic_detail .pic_item .text:before
+{
+	content:"●";
+	/*content:".";*/
+	font-size:3px;
+	color:#878787;
+	margin:0 4px; 
+	text-align:center;
+}
+
+
+.solution1 .container > .content .tab
+{
+	width:100%;
+	/*height:550px;*/
+	/*background:url(../img/solution_poster.png) no-repeat;*/
+	/*background-size:100% 100%;*/
+	position:relative;
+}
+
+.solution1 .container > .content .tab img:first-child
+{
+	width:100%;
+}
+
+.solution1 .container > .content .tab .text
+{
+    position: absolute;
+    right: 0;
+    top: 21%;
+    width: 33%;
+    text-align: center;
+    font-size: 30px;
+    color: #636363;
+}
+
+.solution1 .container > .content .tab .text_en
+{
+    position: absolute;
+    right: 0;
+    top: 28.5%;
+    width: 33%;
+    text-align: center;
+    font-size: 21px;
+    color: #b9b9b9;
+}
+
+.solution1 .container > .content .tab .name
+{
+	position: absolute;
+    right: 0;
+    top: 35%;
+    text-align: right;
+    /*margin-right: 30px;*/
+   /*color:#b8b8b8;*/
+}
+.solution1 .container > .content .tab .name p
+{
+	margin:0;
+	/*b8b8b8*/
+	color:#b8b8b8;
+}
+
+.solution1 .container > .content .tab .name p:first-child
+{
+	font-size:30px
+}
+
+.solution1 .container > .content .tab .name p:last-child
+{
+	font-size:20px;
+}
+.solution1 .slogn 
+{
+	width:100%;
+	height:100px;
+	position:relative;
+	    margin: 30px 0;
+}
+
+.solution1 .slogn .text
+{
+	position: absolute;
+	width:50%;
+	text-align: center;
+	margin:0 auto;
+	left:0;
+	right:0;
+}
+
+.solution1 .slogn .text .cn
+{
+	font-size:28px;
+	text-align:center;
+	color:#cbcbcb;
+	margin-bottom:10px;
+}
+
+.solution1 .slogn .text .en
+{
+    font-size:10px;
+	text-align:center;
+	color:#cbcbcb;
+}
+.solution1 .slogn .line
+{
+	width:20%;
+	height:1px;
+	border-top:1px solid #b8b8b8;
+	margin-top:50px;
+	
+}
+
+.solution1 .introduction 
+{
+	height:500px;
+	width:100%;
+	margin-top:25px;
+}
+
+.solution1 .introduction .slide
+{
+	width:50%;
+	height:100%;
+
+}
+
+.solution1 .introduction .slide1 .pic
+{
+  background:url(../img/tech1.png) no-repeat;
+  background-size:100% 100%;
+  width:90%;
+  height:60%;
+}
+
+.solution1 .introduction .slide .text
+{
+  
+  width:100%;
+  height:40%;
+  /*text-align:center;*/
+  /*line-height:40%;*/
+  /*font-size:*/
+ 
+}
+.solution1 .introduction .slide .text table
+{
+	height:100%;
+	width:100%;
+	/*border:none; <!-- 边框 -->
+	margin:none; <!-- 外边距 -->
+	line-height:20px; <!-- 行高-->
+	padding:0px; <!-- 内边距-->
+	vertical-align: middle;*/
+}
+.solution1 .introduction .slide .text table td
+{
+	padding:20px;
+}
+
+
+.solution1 .introduction .slide2 .pic
+{
+	background: url(../img/tech2.png) no-repeat;
+	background-size:100% 100%;
+    width:90%;
+    height:60%;
+}
+
+
+
+
+
+.solution1 .information 
+{
+	width:100%;
+	/*height: 400px;*/
+	margin-top:40px;
+	margin-bottom:70px;
+}
+
+.solution1 .information .text
+{
+	height:100px;
+	text-align:center;
+	margin: 80px 0;
+	/*line-height:30px;*/
+}
+
+.solution1 .information .text p
+{
+	margin:10px 0
+}
+
+.solution1 .information .text  .cn
+{
+	font-size:30px;
+	text-align:center;
+	color:#c2c2c2;
+}
+.solution1 .information .text  .en
+{
+	/*font-size:16px;*/
+	text-align:center;
+	color:#c2c2c2;
+}
+
+.solution1 .information  .pic 
+{
+	width:100%;
+	/*height:300px;*/
+	margin-top:20px;
+	overflow:hidden;
+	zoom:1;
+}
+
+/*.solution1 .information  .pic  div
+{
+	float:left;
+}*/
+
+.solution1 .information .pic1
+{
+	float:left;
+	width:28%;
+} 
+
+.solution1 .information .pic2
+{
+	/*margin:0 auto;*/
+	float: left;
+    margin-left: 4%;
+    width: 36%;
+} 
+
+.solution1 .information .pic3
+{
+	float:right;
+	width:28%;
+} 
+
+.solution1 .information  .pic  img
+{
+	width:100%;
+}
+
+.solution1 .information .name
+{
+	width:100%;
+	margin:0 auto;
+	text-align :center;
+	clear:both;
+	margin-top:20px;
+	
+}
+
+.solution1 .banner .line
+{
+	width:30%;
+	height:1px;
+	border-top:2px solid #cfcfcf;
+	margin-top:50px;
+}
+
+.solution1 .banner .text
+{
+	width:35%;
+	margin:0 auto;
+	left:0;
+	right:0;
+	position: absolute;
+	text-align: center;
+	height:100px;
+}
+
+.solution1 .banner .text .cn
+{
+	font-size:35px;
+	color:#b8b6b7;
+	margin:0;
+	line-height:100px;
+	/*height:40px;*/
+	/*line-height:40px;*/
+}
+
+.solution1 .banner .text .en
+{
+
+    font-size: 12px;
+    color: #b8b6b7;
+    margin: 0;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    width: 100%;
+	/*height:40px;*/
+	/*line-height:40px;*/
+}
+
+.solution1 .intro_detail
+{
+	height:1250px;
+	width:100%;
+}
+
+.solution1 .intro_detail .detail_item
+{
+	height:400px;
+	width:100%;
+	margin:60px 20px;
+}
+
+.solution1 .intro_detail .detail_item1 .pic
+{
+	width:50%;
+	height:100%;
+	
+} 
+
+.solution1 .intro_detail .detail_item1 .pic
+{
+	width:50%;
+	height:100%;
+	
+	background:url(../img/neikui_detail1.png) no-repeat;
+	background-size:100%;
+	background-position: center;
+	
+} 
+
+.solution1 .intro_detail .detail_item1 .text
+{
+	width:50%;
+	height:100%;
+	
+	/*text-align:center;
+	font-size:20px*/
+}
+
+.solution1 .intro_detail .detail_item .text table
+{
+	width:100%;
+	height:100%;
+	
+	/*text-align: center;*/
+	/*font-size:20px;*/
+}
+
+.solution1 .intro_detail .detail_item .text table td
+{
+	text-align: center;
+	font-size:18px;
+	color:#a3a3a3;
+	line-height:25px;
+	padding:10px;
+}
+
+.solution1 .intro_detail .detail_item2 .pic
+{
+	width:80%;
+	height:90%;
+	margin:0 auto;
+	
+	background:url(../img/neikui_detail2.png) no-repeat;
+	background-size:100%;
+	background-position: center;
+	
+} 
+
+
+.solution1 .intro_detail .detail_item3 .pic
+{
+    width:50%;
+	height:100%;
+	
+	background:url(../img/neikui_detail3.png) no-repeat;
+	background-size:100%;
+	background-position: center;
+	
+} 
+
+.solution1 .intro_detail .detail_item3 .text
+{
+	width:50%;
+	height:100%;
+	
+	/*text-align:center;
+	font-size:20px*/
+}
+
+.solution1 .pic_detail
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom:200px;
+}
+
+.solution1 .pic_detail .title
+{
+	width:100%;
+	height:50px;
+	margin:50px 0;
+	position:relative;
+}
+
+.solution1 .pic_detail .title .line
+{
+	width:40%;
+	height:1px;
+	border-top:1px solid #b8b8b8;
+	margin-top:25px;
+	
+}
+
+.solution1 .pic_detail .title .text
+{
+	width:20%;
+	line-height: 50px;
+	text-align:center;
+	font-size:20px;
+	height:100%;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	color:#b8b8b8;
+}
+
+.solution1 .pic_detail .pic_item
+{
+    
+}
+
+.solution1 .pic_detail .pic img
+{
+   width:100%;
+}
+
+.solution1 .pic_detail .pic_item .text
+{
+   width:100%;
+   height:10px;
+   color:#b8b8b8;
+   text-align:center;
+}
+
+.solution1 .pic_detail .pic_line
+{
+	width:90%;
+	margin:0 auto;
+}
+
+.solution1 .pic_detail .pic2,.solution1 .pic_detail .pic3,.solution1 .pic_detail .pic4,.solution1 .pic_detail .pic5,.solution1 .pic_detail .pic6
+{
+	width:45%;
+	height:100%;
+	float:left;
+	text-align:center;
+	margin:2.5%;
+}
+
+.solution1 .pic_detail .pic2 img,.solution1 .pic_detail .pic3 img,.solution1 .pic_detail .pic4 img,.solution1 .pic_detail .pic5 img,.solution1 .pic_detail .pic6 img
+{
+	width:80%;
+	margin:0 auto;
+}
