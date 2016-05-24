@@ -27,19 +27,39 @@
     width: 100%;
 }
 
-.info4 .container > .content .tab .wen_title
-{
-	position: absolute;
-    top: 20%;
-    width: 100%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 28px;
-    color: #878787;
-    font-weight: 500;
+@media screen and (max-width:1250px) {
+  .info4 .container > .content .tab .wen_title
+	{
+		position: absolute;
+	    top: 10%;
+	    width: 100%;
+	    left: 0;
+	    right: 0;
+	    text-align: center;
+	    margin: 0 auto;
+	    font-size: 30px;
+	    color: #878787;
+	    font-weight: 500;
+	}
 }
+
+@media screen and (min-width:1250px) {
+	.info4 .container > .content .tab .wen_title
+	{
+		position: absolute;
+	    top: 18%;
+	    width: 100%;
+	    left: 0;
+	    right: 0;
+	    text-align: center;
+	    margin: 0 auto;
+	    font-size: 30px;
+	    color: #878787;
+	    font-weight: 500;
+	}
+
+}
+
 
 .info4 .container > .content .tab .wen_wen1
 {
@@ -298,7 +318,7 @@
 	width:95%;
 	margin:0 auto;
 	text-align: center;
-	font-size:30px;
+	font-size:28px;
 	height:50px;
 	line-height:50px;
 	border-bottom:2px #878787 solid;
