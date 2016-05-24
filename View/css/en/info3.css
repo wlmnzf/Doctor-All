@@ -156,6 +156,19 @@
 	line-height:500px;
 }
 
+.info3 .container > .content  .sample_1 img
+{
+	width:100%;
+}
+
+.info3 .container > .content  .sample_2
+{
+	height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 25px;
+    color: #b1afb0;
+}
 
 .info3 .container > .content .feature
 {
@@ -163,16 +176,11 @@
 	height:150px;
 }
 
-.info3 .container > .content .feature_slogn
-{
-	text-align: center;
-}
-
 .info3 .container > .content .feature .kuang
 {
 	width:70%;
 	height:130px;
-	background: url(../img/productionreg.png);
+	background: url(../../img/productionreg.png);
 	background-size:100% 100%;
 	margin:0 auto;
 	text-align:center;
@@ -209,9 +217,10 @@
 	width:90%;
 	height:200px;
     margin:50px auto 0 auto;
+    font-size:15px;
 }
 
-.info3 .container > .content .feature_list  .feature_slogn
+.info3 .container > .content  .feature_slogn
 {
 	text-align: center;
 }

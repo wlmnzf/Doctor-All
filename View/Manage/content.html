@@ -11,18 +11,7 @@
 	  	</div>	
 	  </div>	
   	 	
-<!-- 
-	  <div class="form-group">
-	  	<div class="split cn">
-	        <textarea class="form-control" placeholder="请输入中文" rows="3"></textarea>
-	  	</div>
-	  	
-	  	<div class="split en">
-	        <textarea class="form-control" placeholder="请输入英文" rows="3"></textarea>
-	  	</div>	
-	  </div> -->
-	  
-	  
+
 	  
 	  <div class="form-group operation">
 	       <button type="button" class="btn btn-info add">添加</button>
@@ -34,8 +23,9 @@
 
   <script>
    $(document).ready(function(){
-          var remark="content";
 
+        var remark="content";
+       //定义节点的模板
    		  var node='<div name="lang" class="form-group animated bounceInLeft">'
 		  	  node+='<div class="split cn">'
 		      node+='<textarea class="form-control" placeholder="请输入中文" rows="3"></textarea>'
@@ -45,7 +35,7 @@
 		  	  node+='</div>'
 		      node+='</div>'
 
-
+     //获取数据
  	   $.post("{:U('Doctor/Manage/encn_init','','')}",
             {
               name:remark
@@ -71,32 +61,35 @@
             });
           
 
+
+     //添加一条记录
 	   	$(".add").click(function(){
    	        $(".operation").before(node);
-// 	        $(node).addClass('animated bounceOutLeft');
 	   	})
 
-
+      //保存
 	   	  $(".save").click(function(){
-
 
           var info=new Object()
           info.length=0;
+          //遍历所有的记录
           var lang=document.getElementsByName("lang")
           for(var i=0;i<lang.length;i++)
           {
           	var cn=$(lang[i]).find(".cn textarea").val();
           	var en=$(lang[i]).find(".en textarea").val();
+            //遇到空格就跳过
           	if(cn==""||cn==null||cn==undefined||en==""||en==null||en==undefined)
           		continue;
+            //存入object中
             var lang_pair=new Object();
             lang_pair.cn=cn;
             lang_pair.en=en;
             info[info.length]=lang_pair;
             info.length++;
           }
-          // info.length=lang.length;
-          // alert(JSON.stringify(info));
+          
+          //转换为json，post提交保存
           $.post("{:U('Doctor/Manage/encn_save','','')}",
             {
               name:remark,

@@ -156,6 +156,19 @@
 	line-height:500px;
 }
 
+.info3 .container > .content  .sample_1 img
+{
+	width:100%;
+}
+
+.info3 .container > .content  .sample_2
+{
+	height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 25px;
+    color: #b1afb0;
+}
 
 .info3 .container > .content .feature
 {
@@ -204,6 +217,7 @@
 	width:90%;
 	height:200px;
     margin:50px auto 0 auto;
+    font-size:15px;
 }
 
 .info3 .container > .content  .feature_slogn

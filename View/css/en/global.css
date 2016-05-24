@@ -107,7 +107,7 @@ body .container > .content
   overflow: hidden;
 }
 
-.head .nav div
+.head .nav a div,.head .nav >div
 {
 	 /*white-space:nowrap;*/
 
@@ -172,12 +172,12 @@ body .container > .content
     /*padding-left: 40px;*/
     margin-top:20px;
 
-
+   float: left;
     overflow: hidden;
     zoom: 1;
     height: auto;
 }
-}
+
 
 .head .nav ul
 {
@@ -200,6 +200,7 @@ body .container > .content
 .head .nav ul li a
 {
 	text-decoration: none;
+	padding:10px;
 	/*display:block;float:left; width: 200px;*/ 
 }
 .head .nav div:hover .showtab

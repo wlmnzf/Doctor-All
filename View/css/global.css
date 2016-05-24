@@ -80,9 +80,10 @@ body .container > .content
 
 .head .line .information
 {
-	height:10px;
+	height:65px;
 	width:100%;
 	clear: both;
+    overflow:hidden;
 }
 
 .head .line .logo
@@ -107,7 +108,7 @@ body .container > .content
   overflow: hidden;
 }
 
-.head .nav div
+.head .nav a div,.head .nav >div
 {
 	 /*white-space:nowrap;*/
 
@@ -172,12 +173,12 @@ body .container > .content
     /*padding-left: 40px;*/
     margin-top:20px;
 
-
+    float:left;
     overflow: hidden;
     zoom: 1;
     height: auto;
 }
-}
+
 
 .head .nav ul
 {
@@ -199,6 +200,7 @@ body .container > .content
 }
 .head .nav ul li a
 {
+	padding:10px;
 	text-decoration: none;
 	/*display:block;float:left; width: 200px;*/ 
 }

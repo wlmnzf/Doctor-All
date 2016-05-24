@@ -19,6 +19,9 @@
 
 
 
+//这个escape函数有问题，不要用
+
+
 function unescape($str) {
 		$ret = '';
 		$len = strlen ( $str );

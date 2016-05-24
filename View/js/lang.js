@@ -1,10 +1,18 @@
 ;
-//deraction=true:cn=>en
-// String.prototype.replaceAll = function(oldStr, newStr) {
-// 	    return this.replace(new RegExp(oldStr,"gm"),newStr); 
-// 	}
+/**
+ * [regChar 正则表达式中的需要转义的字符]
+ * @type {Array}
+ */
 var regChar=new Array("*",".","?","+","$","^","[","]","(",")","{","}","|");
 
+
+
+
+/**
+ * @function {[下载css文件]}
+ * @param  {[path  string   替换的中英文css文件的地址]}
+ * @return {[无]}
+ */
 function download(path){
 		// if(!path || path.length === 0){
 		// 	throw new Error('argument "path" is required !');
@@ -20,6 +28,14 @@ function download(path){
        body.append($(node));
     }
 
+
+
+
+
+/**
+ * @function {[判断浏览器是否支持LocalStorage功能]}
+ * @return {[bool]}
+ */
 function judgeLocalstorage()
 {
 	if(window.localStorage)
@@ -29,13 +45,26 @@ function judgeLocalstorage()
 	return false;
 }
 
+
+
+/**
+ * @function  {[清除空格和换行]}
+ * @param {[key string 要清除空格和换行的文字]}
+ * @return {[string 已经清除空格和换行的文字]}
+ */
 function ClearBr(key) { 
-    // key = key.replace(/<\/?.+?>/g,""); 
     key = key.replace(/[\r\n]*/gm, ""); 
-    // key = key.replace(/[\s]/gm, ""); 
     return key; 
 } 
 
+
+
+/**
+ * @function {[将正则表达式中的特殊符号转义]}
+ * @param  {[obj string 需要转义的正则表达式]}
+ * @param  {[str string  转义字符]}
+ * @return {[string  已转义的正则表达式]}
+ */
 function replaceReg(obj,str)
   {
 		var index=-1;
@@ -43,16 +72,20 @@ function replaceReg(obj,str)
 		   // alert("ddd");
 		while((index=obj.indexOf(str,start))>0)
 		 {
-		      // alert(index);
-			  
 			obj=obj.substr(0, index)+"\\"+obj.substr(index);
-			  // alert(obj);
 			 start=index+2;
 		  }
-		   // alert("sss");
 		  return obj;
 	}
 
+
+/**
+ * @function {[替换文字]}
+ * @param  {[obj string  要替换的整段文字]}
+ * @param  {[oldStr string 要被替换的文字]}
+ * @param  {[newStr string 替换成的新文字]}
+ * @return {[string  已被替换的文字]}
+ */
 function replaceAll(obj ,oldStr, newStr) 
 {
     for(var i=0;i<regChar.length;i++)
@@ -63,18 +96,25 @@ function replaceAll(obj ,oldStr, newStr)
 
 
 	 return obj.replace(new RegExp(">[\\s]*"+oldStr+"[\\s]*<","gm"),function(word){
-          // console.log(word);
          return ">"+newStr+"<"}
   ); 
-   // return obj.replace(/>[\s]*关于我们[\s]*</gm, "><"); 
 }
 
+
+
+/**
+ * @function {[转换语言核心部分]}
+ * @param  {[data string 中英文百科大字典]}
+ * @param  {[deriction bool true:中->英  false:英->中]}
+ * @return {[type]}
+ */
 function change(data,deriction)
 {
                 encn=data;
                 encn=JSON.parse(encn);
 
                     var css_src=$("#css_src").val();
+                    //替换css为英文版本css或中文版本的css
 				   if(deriction)
 				    	{
 				    			$("link").each(function(){
@@ -90,21 +130,19 @@ function change(data,deriction)
 									})
 				    	}
 
+
+               //正则替换
 			    for(var i=0;i<encn.length;i++)
 			    {
 			    	//if(encn[i].remark)
 			    	var id=encn[i].remark;
 			    		tmpText=$("body").html()
 				    	tmpText=ClearBr(tmpText);
-				    	// tmpText=tmpText.replace(/\s+([^<>]+)(?=<)/g, function (m) { 
-				    	// 	    console.log(m);
-			      //   			return m.replace(/(^\s*)|(\s*$)/g,""); 
-			   			// 	});
+
 				    	var json=JSON.parse(unescape(encn[i].json));
 
 				    	for(var j=0;j<json.length;j++)
 				    	{
-				    		// var reg=new RegExp(json[j].cn,"mg");
 				    		if(deriction)
 				    		{
 				    			tmpText=replaceAll(tmpText, json[j].cn, json[j].en);
@@ -113,7 +151,6 @@ function change(data,deriction)
 				    		{
 				    			tmpText=replaceAll(tmpText, json[j].en, json[j].cn);
 				    		}
-				    		// tmpText=tmpText.replace(/首页/gm,"index"); 
 				    	}
 				    	$("body").html(tmpText)
 			     
@@ -121,6 +158,13 @@ function change(data,deriction)
 			    }
 }
 
+
+
+/**
+ * @function {[改变语言]}
+ * @param  {[deriction bool true:中->英]}
+ * @return {[无]}
+ */
 function changeLang(deriction)
 {
     var encn="";
@@ -143,11 +187,14 @@ function changeLang(deriction)
      {
      	change(encn,deriction)
      }
-
-
-   // $(".head").html();
 }
 
+
+
+/**
+ * @function {[function:页面初始化函数，判断这个网页应该显示中文还是英文]}
+ * @return {[无]}
+ */
 function language(){
 		var targetlang="en";
 		var current=$(this).find(".current");
@@ -162,6 +209,7 @@ function language(){
 			targetlang="en";
 			changeLang(true);
 		}
+		//改变状态后，将语言选项（中文还是英文），存入cookie
         $.cookie("targetlang",targetlang,{ 
                  path: "/"
             })
@@ -174,14 +222,14 @@ function language(){
 
 
 $(document).ready(function(){
-	// var encn=$.cookie("encn");
 	var css_src=$("#css_src").val();
+	//预下载英文版本的css
 	$("link").each(function(){
 		var path=$(this).attr("href").replace(css_src,css_src+"/en");
 		download(path);
 
 	})
-
+     //如果localstorage存在下载来的字典数据就直接取用，否则，重新下载
     if(judgeLocalstorage())
     {
     	 var url=$("#encn_src").val();
@@ -194,12 +242,7 @@ $(document).ready(function(){
     }
 
 	$(".language").click(language)
- //    targetlang=$("#targetLang").val();
-    // if(targetlang!="en"&&targetlang!="cn")
-    // {
-    // 	storagelang=$.cookie("targetlang");
-    // 	if(storagelang)
-    // }
+    
 
     var targetlang="cn";
     storagelang=$.cookie("targetlang");
