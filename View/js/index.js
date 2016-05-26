@@ -5,7 +5,10 @@ window.onresize = function(){
    height=$(".banner li img").eq(0).height();
 	$(".tab").height(height);
 }
-
+window.onload = function(){
+   height=$(".banner li img").eq(0).height();
+	$(".tab").height(height);
+}
 function banner_init()
 {
 	width=$(".banner li").eq(0).width();
@@ -55,17 +58,25 @@ function show_next()
 	show_index(+1);
 }
 
-$(document).ready(function(){
-	 banner_init();
-	 var idInt = setInterval(function(){
+function start_turning(){
+	idInt = setInterval(function(){
 	 	show_next();
 	 },4000);
+}
+
+$(document).ready(function(){
+	 banner_init();
+	 start_turning();
 	 
 	 $(".left-arrow").click(function(){
+	 	clearInterval(idInt);
 	 	 show_last();
+	 	 start_turning();
 	 })
 	 
 	 $(".right-arrow").click(function(){
+	 	clearInterval(idInt);
 	 	 show_next();
+	 	 start_turning();
 	 })
 })

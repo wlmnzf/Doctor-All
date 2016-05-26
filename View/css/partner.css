@@ -6,7 +6,7 @@
 .partner .container > .content .partneritem 
 {
 	width:60%;
-	height:50px;
+	height:250px;
 	margin:0 auto;
 	/*max-width:1080px;*/
 	
@@ -19,30 +19,23 @@
 .partner .container > .content .line
 {
 	width:2px;
-	height:100px;
+	height:90px;
 	border-left:2px #babdc4 solid;
 	float: left;
     margin-top: -20px;
 }
 
 
-.partner .container > .content .circle
-{
-	width:6px;
-	height:6px;
-	border-radius: 10px;
-	border:2px #babdc4 solid;
-	
-	top:22px;
-	position:absolute;
-	margin-left:-6px;
-	z-index:999;
-	background-color:white ;
-}
-
 .partner .container > .content  .partneritem .logo
 {
     width:auto;
+}
+
+.partner .container > .content  .partneritem .introduce
+{
+    float: left;
+    text-indent: 30px;
+    letter-spacing: 0.56px;
 }
 
 .partner .container > .content  .partneritem  img
@@ -60,8 +53,7 @@
 {
 	float:left;
 	line-height:50px;
-	margin-left:30px;
-	
+	margin-left: 10%;
 	font-size:17px;
 	font-weight:600;
 }
