@@ -2,10 +2,10 @@
 	return array(
     'URL_MODEL'		=>	2, // 如果你的环境不支持PATHINFO 请设置为3
     'DB_TYPE'		=>	'mysql',
-    'DB_HOST'		=>	'qdm168150110.my3w.com',
-    'DB_NAME'		=>	'qdm168150110_db',
-    'DB_USER'		=>	'qdm168150110',
-    'DB_PWD'		=>	'wlm94929',
+    'DB_HOST'		=>	'localhost',
+    'DB_NAME'		=>	'doctor',
+    'DB_USER'		=>	'root',
+    'DB_PWD'		=>	'HZchuanghuitech-2015',
     'DB_PORT'		=>	'3306',
     'DB_PREFIX'		=>	'think_',
 	

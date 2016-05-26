@@ -97,6 +97,7 @@ body .container > .content
 }
 .head .nav
 {
+	min-width: 620px;
 	float:right;
     margin-top: 20px;
     margin-right:85px
