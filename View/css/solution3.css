@@ -20,6 +20,57 @@
 	width:100%;
 	/*width:200px;*/
 }
+.solution3 .container > .content .tab div
+{
+	position: absolute;
+	font-size: initial;
+}
+
+.solution3 .container > .content .tab .biaoqian1
+{
+	    top: 66%;
+    left: 20%;
+}
+.solution3 .container > .content .tab .biaoqian2
+{
+	    top: 44%;
+    left: 34%;
+}
+.solution3 .container > .content .tab .biaoqian3
+{
+    top: 93%;
+    left: 38%;
+}
+.solution3 .container > .content .tab .cangchu
+{
+    top: 58%;
+    left: 32%;
+}
+.solution3 .container > .content .tab .chezai
+{
+    top: 40%;
+    left: 41%;
+}
+.solution3 .container > .content .tab .yunshu
+{
+    top: 40%;
+    left: 51%;
+}
+.solution3 .container > .content .tab .cangwang
+{
+    top: 62%;
+    left: 46%;
+}
+.solution3 .container > .content .tab .shouchi
+{
+    top: 86%;
+    left: 49%;
+}
+.solution3 .container > .content .tab .yunfuwuqi
+{
+top: 71%;
+    left: 67%;
+}
 
 
 .solution3 .kuan

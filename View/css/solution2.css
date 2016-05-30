@@ -276,11 +276,69 @@
 	width:100%;
 	overflow:hidden;
 	margin-top:30px;
+	position:relative;
 }
 
 .solution2 .content  .information4 img
 {
 	width:100%;
+}
+
+.solution2 .content  .information4 div
+{
+	position:absolute;
+	font-weight: 600;
+	font-size: 16px;
+	top: 50%;
+	left: 60%;
+}
+
+.solution2 .content  .information4 .biaoqian
+{
+	    top: 93%;
+    left: 9%;
+}
+
+.solution2 .content  .information4 .wenshidu
+{
+	    top: 40%;
+    left: 13%;
+}
+
+.solution2 .content  .information4 .chuandizhongji
+{
+	    top: 50%;
+    left: 12%;
+}
+
+.solution2 .content  .information4 .zhongji
+{
+	    top: 85%;
+    left: 30%;
+}
+
+.solution2 .content  .information4 .luyouqi
+{
+	    top: 69%;
+    left: 46%;
+}
+
+.solution2 .content  .information4 .diannao
+{
+	    top: 18%;
+    left: 84%;
+}
+
+.solution2 .content  .information4 .shoujiyingyong
+{
+	    top: 41%;
+    left: 93%;
+}
+
+.solution2 .content  .information4 .shoujiduanxin
+{
+	    top: 67%;
+    left: 84%;
 }
 
 .solution2 .content  .information5

@@ -247,20 +247,37 @@
 	 color: #9b9796;
     font-size: 17px;
 }
-
-.info4 .container > .content .oppsite .pic
+.info4 .container > .content .oppsite .kuang2
 {
-	width:100%;
+	width: 1000px;
+	height: 250px;
+	margin: 0 auto;
+}
+.info4 .container > .content .oppsite .kuang2 .pic
+{
+	width: 100%;
+	height: 100%;
+	background: url(../img/no.png) no-repeat;
+	background-size:100% 100%;
 	
 }
-.info4 .container > .content .oppsite .pic img
+
+.info4 .container > .content .oppsite .pic .slogn1
 {
-	width:100%;
+	    width: 300px;
+    margin: 0 41%;
+    color: #9b9796;
+    font-size: 40px;
+    padding-top: 7%;
 }
-
-
-
-
+.info4 .container > .content .oppsite .pic .slogn2
+{
+	    width: 300px;
+    margin: 0 44%;
+    color: #9b9796;
+    font-size: 30px;
+    padding-top: 2%;
+}
 
 .info4 .container > .content .topic 
 {
