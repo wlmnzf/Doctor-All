@@ -19,13 +19,14 @@
 
 .hr .container > .content .hr_list
 {
-	width:50%;
+	width:70%;
 	margin:0 auto;
 	
 }
 .hr .container > .content .hr_list table
 {
 	width:100%;
+	border-spacing: 20px;
 }
 
 .hr .container > .content .hr_list table tr
@@ -41,11 +42,47 @@
 	font-size: 17px;
 	font-weight:600
 }
-
-
-.hr .container > .content a
+.hr .container > .content .hr_list table tr td button
 {
-	width:100%;
-	text-decoration: none;
-	color: #cbced5;
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+    background-color: #88b9e1;
+    color:white;
+    border-radius: 3px;;
 }
+.hr .container > .content .hr_list table tr .detail
+{
+	width:37%;
+}
+
+.hr .container > .content .hr_list table tr .apply
+{
+	/*border-radius: 8px;
+	width: 5%;
+	height: 40px;
+	background-color: #8D8D8D;*/
+}
+
+.hr .container > .content .hr_list table tr td button:hover
+{
+	box-shadow: 0px 0px 5px gray;
+}
+

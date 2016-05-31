@@ -6,7 +6,9 @@ class RecruitmentController extends Controller {
         $this->show();
     }
 
-    public function detail_hr(){
-        $this->show();
+    public function detail_hr($id){
+    	
+    	$content = $this->fetch('job'.$id);
+        $this->show($content);
     }
 }
