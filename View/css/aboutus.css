@@ -37,6 +37,10 @@
 	width:80%;
 	margin:0 auto;
 }
+.aboutus .container > .content .together .text
+{
+	text-indent: 30px;
+}
 
 .aboutus .container > .content .ps
 {

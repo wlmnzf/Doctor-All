@@ -540,14 +540,6 @@
 	float:right;
 }
 
-.info4 .container > .content .baby_item .text p:first-child:before
-{
-    content:"●";
-	font-size:3px;
-	color:#878787;
-	margin:0 4px; 
-	text-align:center;
-}
 
 .info4 .container > .content .procedure
 {

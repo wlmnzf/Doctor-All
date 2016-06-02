@@ -1,4 +1,4 @@
-.partner .container > .content
+777777777.partner .container > .content
 {
 	margin-top:50px;
 	/*padding-left:20px ;*/
@@ -6,7 +6,7 @@
 .partner .container > .content .partneritem 
 {
 	width:60%;
-	height:250px;
+	height:40px;
 	margin:0 auto;
 	/*max-width:1080px;*/
 	
@@ -41,7 +41,7 @@
 .partner .container > .content  .partneritem  img
 {
 	width:200px;
-	height:40px;
+	height:42px;
 	margin-top:5px;
 	
 	margin-left:50px;
@@ -51,6 +51,8 @@
 
 .partner .container > .content  .partneritem  .name
 {
+	text-align: center;
+    width: 210px;
 	float:left;
 	line-height:50px;
 	margin-left: 10%;

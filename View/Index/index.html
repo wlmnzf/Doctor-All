@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<title>首页</title>
@@ -10,77 +11,288 @@
 		<script src="__JS__/lang.js"></script>
 		<script src="__JS__/index.js"></script>
 	</head>
+
 	<body class="indexpage">
 		<!-- <input id="encn_src" type="hidden" value="{:U('Doctor/Index/get_encn','','')}"/>
         <input id="encn_val" type="hidden" value="{$encn_json}"/> -->
 
-		<div  class="container">
-		
-		<include file="./Application/Doctor/View/Global/head.html" />
+		<div class="container">
 
-		<!-- <include file="{:U('Doctor/Global/head','','')}" /> -->
+			<include file="./Application/Doctor/View/Global/head.html" />
 
-		<div id="content" class="content">
-		<!--<div class="tab"></div>-->
-			<!-- <div class="tab"><img  src="__IMG__/poster.png" /></div> -->
+			<!-- <include file="{:U('Doctor/Global/head','','')}" /> -->
 
-			<div class="tab">
-				<div class="left-arrow"></div>
-				<div class="banner">
-					<ul>
-						<li><img  src="__IMG__/poster.png" /></li>
-						<li><img  src="__IMG__/poster1.jpg" /></li>
-						<li><img  src="__IMG__/poster2.jpg" /></li>
+			<div id="content" class="content">
+				<!--<div class="tab"></div>-->
+				<!-- <div class="tab"><img  src="__IMG__/poster.png" /></div> -->
+
+				<div class="tab">
+					<div class="left-arrow"></div>
+					<div class="banner">
+						<ul>
+							<li><img src="__IMG__/poster.png" /></li>
+							<li><img src="__IMG__/poster1.jpg" /></li>
+							<li><img src="__IMG__/poster2.jpg" /></li>
+						</ul>
+					</div>
+					<div class="right-arrow"></div>
+				</div>
+
+				<div class="detail_nav_container">
+					<ul id="myTab" class="nav nav-tabs chose_tab">
+						<li class="active">
+							<a href="#pro" data-toggle="tab">
+   	  		   				 <span class="chose_tab1">主打产品</span>
+		      				</a>
+						</li>
+						<li><a href="#intel" data-toggle="tab"><span class="chose_tab2">智能方案</span></a></li>
+						
+						<li><a href="#partner" data-toggle="tab"><span class="chose_tab3">合作伙伴</span></a></li>
+						<li><a href="#about" data-toggle="tab"><span class="chose_tab4">关于我们</span></a></li>
 					</ul>
 				</div>
-				<div class="right-arrow"></div>
+				<div class="detail_container">
+					<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade in active" id="pro">
+						<div class="content-text">
+							<h2>智能设备，安全方便</h2>
+							<p>创辉医疗应用定制化传感芯片与无线技术，研发最先进智能医疗设备</p>
+						</div>
+						<div class="content-item">
+							<ul class="row">
+								<li>
+									<a href="../Productinfo/info2.html">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											可视喉镜
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="../Productinfo/info4.html">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											主动式体温贴
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="../Productinfo/info1.html">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											肺功能计
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="../Productinfo/info2.html"/>
+										</div>
+										<div class="item-text">
+											雾化器
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+					<div class="tab-pane fade" id="intel">
+						<div class="content-text">
+							<h2>完整方案，高能低耗</h2>
+							<p>创辉提供新一代微型化、低成本、低功耗、高性能的可抛弃式高端解决方案</p>
+						</div>
+						<div class="content-item">
+							<ul class="row">
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											超微电子内窥镜
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											温湿度监控系统
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											智能冷链监控系统
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											输液流量监控
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="partner">
+						<div class="content-text">
+							<h2>多方合作、共同发展</h2>
+							<p>创辉专业的研发团队与其他各方合作，将公司打造成研发、生产、市场销售为一体的领军企业</p>
+						</div>
+						<div class="content-item">
+							<ul class="row">
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/sichuang.png"/>
+										</div>
+										<div class="item-text">
+											思创医惠科技股份有限公司
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/zeda.png"/>
+										</div>
+										<div class="item-text">
+											杭州泽大仪器有限公司
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/zheda.png"/>
+										</div>
+										<div class="item-text">
+											浙江大学
+										</div>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="about">
+						<div class="content-text">
+							<h2>创辉医疗，值得信赖</h2>
+							<p>我们将先进的电子技术用于健康</p>
+						</div>
+						<div class="content-item">
+							<ul class="row">
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											所获荣誉
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											深入了解
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											资格证书
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="item-image">
+											<img src="__IMG__/1.png"/>
+										</div>
+										<div class="item-text">
+											加入我们
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					</div>
+				</div>
+				
+
+				<div class="news">
+					<div class="picture"></div>
+					<div class="introduction">
+						<h1 class="title">新闻中心</h1>
+						<div class="news">等待填充</div>
+					</div>
+				</div>
+
+				<div class="line"></div>
+
+				<div class="piclist">
+					<div>
+						<table>
+							<th>
+								<td>
+									<img src="__IMG__/1.png" />
+								</td>
+							</th>
+						</table>
+					</div>
+					<div>
+						<table>
+							<th>
+								<td>
+									<img src="__IMG__/2.png" />
+								</td>
+							</th>
+						</table>
+					</div>
+					<div>
+						<table>
+							<th>
+								<td>
+									<img src="__IMG__/3.png" />
+								</td>
+							</th>
+						</table>
+					</div>
+				</div>
+
 			</div>
 
+			<include file="./Application/Doctor/View/Global/footer.html" />
 
-			
-			<div class="function">
-				<div class="icons">
-					<div class="plus"></div>
-					<div class="medicine"></div>
-					<div class="earth"></div>
-					<div class="person"></div>
-				</div>
-			</div>
-			
-			<div class="news">
-				<div class="picture"></div>
-				<div class="introduction">
-					<h1 class="title">新闻中心</h1>
-					<div class="news">等待填充</div>
-				</div>
-			</div>
-			
-			
-			<div class="line"></div>
-			
-			<div class="piclist">
-				<div>
-					<table><th><td>
-						<img src="__IMG__/1.png"/>
-					</td></th></table>
-				</div>
-				<div>
-					<table><th><td>
-						<img src="__IMG__/2.png"/>
-					</td></th></table>
-				</div>
-				<div>
-					<table><th><td>
-						<img src="__IMG__/3.png"/>
-					</td></th></table>
-				</div>
-			</div>
-		
-		</div>
-		
-		<include file="./Application/Doctor/View/Global/footer.html" />
-		
-		
 		</div>
 	</body>
 

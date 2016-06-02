@@ -1,4 +1,4 @@
-.solution2 .content .tab .useful .useful_line *:before,.solution .content .production .gray .text:before,.solution .content .production .white .text:before,.solution .content .production .black .text:after
+.solution2 .content .tab .useful .useful_line *:before
 {
 	content:"●";
 	/*content:".";*/
@@ -112,7 +112,7 @@
 
 .solution2 .content .production .black
 {
-	padding-top:135px;
+	padding-top:80px;
 }
 
 .solution2 .content .production .white .text
@@ -123,17 +123,18 @@
 
 .solution2 .content .production .black .text
 {
-	text-align:right;
-	width:90%;
+	text-align:center;
+	width:100%;
 	/*padding-right:20px;*/
 }
-
+.solution2 .content .production .gray
+{
+	padding-top:80px;
+}
 .solution2 .content .production .gray .text
 {
-	text-align: left;
+	text-align: center;
     width: 100%;
-    margin-top: 40px;
-    padding-left: 20px;
 }
 
 .solution2 .content .production  .text
@@ -302,7 +303,7 @@
 .solution2 .content  .information4 .wenshidu
 {
 	    top: 40%;
-    left: 13%;
+    left: 12%;
 }
 
 .solution2 .content  .information4 .chuandizhongji
@@ -446,5 +447,5 @@
 {
 	 font-size: 28px;
 	 vertical-align: middle;
-	 color:#9E7C7C;
+	 color:#55B6E6;
 }
