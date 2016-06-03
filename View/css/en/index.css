@@ -250,3 +250,208 @@
 	width:100%;
 	/*height:100%;*/
 }
+
+.detail_nav_container{
+	width: 125%;
+    height: 100px;
+    margin-left: -12.5%;
+    padding-top: 0px;
+    
+    background-color: #CBCED5;
+}
+
+
+.detail_container{
+	display: block;
+	padding-top: 20px;
+	width: 100%;
+	height: 650px;
+}
+
+.detail_nav_container .chose_tab{
+	width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.detail_nav_container .chose_tab li{
+	width: 25%;
+	height: 100%;
+}
+
+.detail_nav_container .chose_tab li a{
+	text-align: center;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: table;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.detail_nav_container .chose_tab li a span{
+	text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.detail_container .tab-pane .content-text{
+	overflow: hidden;
+    padding: 60px 0px 20px 0px;
+    text-align: center;
+}
+.detail_container .tab-pane .content-text h2{
+	font-size: 42px;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.detail_container .tab-pane .content-text p{
+	font-size: 14px;
+    line-height: 30px;
+}
+.detail_container .tab-pane .content-item{
+	width: 100%;
+	padding-bottom: 35px;
+}
+.detail_container .tab-pane .content-item .row{
+	 margin: 0;
+    padding: 0;
+	margin-left: -15px;
+    margin-right: -15px;
+   
+        list-style-type: none;
+}
+.detail_container .tab-pane .content-item .row li{
+	padding: 15px;
+    overflow: hidden;
+    position: relative;
+    width: 22%;
+    height: ;
+    float: left;
+}
+
+.detail_container .tab-pane .content-item .row li a{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none!important;
+}
+.detail_container .tab-pane .content-item .row li a .item-image img{
+	width: 100%;
+	height:150px;
+}
+
+.detail_container .tab-pane .content-item .row li a .item-text{
+	position: relative;
+    left: 0px;
+    bottom: 0px;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*bootstrap stuff*/
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+nav{
+	display: block;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.nav > li.disabled > a {
+  color: #777;
+}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #eee;
+  border-color: #337ab7;
+}
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.nav > li > a > img {
+  max-width: none;
+}
+
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active {
+  display: block;
+}
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

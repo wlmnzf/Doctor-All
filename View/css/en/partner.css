@@ -1,4 +1,4 @@
-.partner .container > .content
+777777777.partner .container > .content
 {
 	margin-top:50px;
 	/*padding-left:20px ;*/
@@ -6,7 +6,7 @@
 .partner .container > .content .partneritem 
 {
 	width:60%;
-	height:250px;
+	height:40px;
 	margin:0 auto;
 	/*max-width:1080px;*/
 	
@@ -26,34 +26,9 @@
 }
 
 
-.partner .container > .content .circle
-{
-	width:6px;
-	height:6px;
-	border-radius: 10px;
-	border:2px #babdc4 solid;
-	
-	top:22px;
-	position:absolute;
-	margin-left:-6px;
-	z-index:999;
-	background-color:white ;
-}
-
 .partner .container > .content  .partneritem .logo
 {
     width:auto;
-}
-
-.partner .container > .content  .partneritem  img
-{
-	width:200px;
-	height:40px;
-	margin-top:5px;
-	
-	margin-left:50px;
-	float:left;
-	
 }
 
 .partner .container > .content  .partneritem .introduce
@@ -63,8 +38,21 @@
     letter-spacing: 0.56px;
 }
 
+.partner .container > .content  .partneritem  img
+{
+	width:200px;
+	height:42px;
+	margin-top:5px;
+	
+	margin-left:50px;
+	float:left;
+	
+}
+
 .partner .container > .content  .partneritem  .name
 {
+	text-align: center;
+    width: 350px;
 	float:left;
 	line-height:50px;
 	margin-left: 10%;
