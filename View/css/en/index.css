@@ -81,15 +81,26 @@
         /*overflow: hidden;*/
 }
 
+.new-container{
+	width: 125%;
+    margin-left: -12.5%;
+    background-color: #CBCED5;
+}
 .indexpage .news
 {
     overflow: hidden;
     word-break:break-all;
+        width: 80%;
+    margin-left: 10%;
 }
-
 .indexpage .news div
 {
    float:left;	
+}
+
+.indexpage .news p
+{
+   text-indent: 26px;
 }
 
 .indexpage .container > .content .picture
@@ -99,6 +110,7 @@
 	width:432px;
 	height:492px;
 	background-size:100% 100%;
+	float: left;
 }
 
 .indexpage .container > .content .introduction
@@ -111,7 +123,7 @@
 	
 	height:350px;
 	margin-top:71px;
-	float:right;
+	float: left;
 	
 }
 
@@ -245,6 +257,59 @@
 	position:absolute;
 }
 
+.indexpage .banner li .title1
+{
+	position: absolute;
+    top: 4%;
+    left: 3%;
+    font-size: 79px;
+    color: deepskyblue;
+    text-decoration: none;
+    
+}
+.indexpage .banner li .title2
+{
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    font-size: 92px;
+    color: deepskyblue;
+    text-decoration: none;
+}
+.indexpage .banner li .title3
+{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width:300px;
+    margin-left: -120px;
+    font-size: 60px;
+    color: deepskyblue;
+    text-decoration: none;
+}
+.indexpage .banner li .subtitle1
+{
+	position: absolute;
+    top: 36%;
+    left: 11%;
+    font-size: 34px;
+}
+.indexpage .banner li .subtitle2
+{
+    position: absolute;
+    top: 48%;
+    left: 11%;
+    font-size: 34px;
+}
+.indexpage .banner li .subtitle3
+{
+    position: absolute;
+    top: 23%;
+    left: 2%;
+    font-size: 49px;
+    color: white;
+}
+
 .indexpage .banner li img
 {
 	width:100%;
@@ -344,7 +409,7 @@
 }
 .detail_container .tab-pane .content-item .row li a .item-image img{
 	width: 100%;
-	height:150px;
+	height:190px;
 }
 
 .detail_container .tab-pane .content-item .row li a .item-text{

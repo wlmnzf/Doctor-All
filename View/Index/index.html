@@ -30,9 +30,16 @@
 					<div class="left-arrow"></div>
 					<div class="banner">
 						<ul>
-							<li><img src="__IMG__/poster.png" /></li>
-							<li><img src="__IMG__/poster1.jpg" /></li>
-							<li><img src="__IMG__/poster2.jpg" /></li>
+							<li>
+								<a class="title1" href="../Solution/solution1.html">720P高清内窥镜</a>
+								<span class="subtitle1">低成本、可抛弃</span>
+								<span class="subtitle2">可应用于胃镜、腹腔镜</span>
+								<img src="__IMG__/poster.png" /></li>
+							<li>
+								<a class="title2" href="../Productinfo/info2.html">可视喉镜</a>
+								<span class="subtitle3">便捷机身、高清可视、插入便捷</span>
+								<img src="__IMG__/poster1.png" /></li>
+							<li><a class="title3" href="../Productinfo/info1.html">肺功能计</a><img src="__IMG__/poster2.png" /></li>
 						</ul>
 					</div>
 					<div class="right-arrow"></div>
@@ -63,7 +70,7 @@
 								<li>
 									<a href="../Productinfo/info2.html">
 										<div class="item-image">
-											<img src="__IMG__/pp2.png"/>
+											<img src="__IMG__/houjing-pro.png"/>
 										</div>
 										<div class="item-text">可视喉镜</div>
 									</a>
@@ -79,7 +86,7 @@
 								<li>
 									<a href="../Productinfo/info1.html">
 										<div class="item-image">
-											<img src="__IMG__/product.png"/>
+											<img src="__IMG__/langji.png"/>
 										</div>
 										<div class="item-text">肺功能计</div>
 									</a>
@@ -87,7 +94,7 @@
 								<li>
 									<a href="#">
 										<div class="item-image">
-											<img src="__IMG__/product.png"/>
+											<img src="__IMG__/wuhuaqi.png"/>
 										</div>
 										<div class="item-text">
 											雾化器
@@ -221,14 +228,28 @@
 					</div>
 				</div>
 				
-
-				<div class="news">
+				<div class="new-container">
+					<div class="news">
 					<div class="picture"></div>
 					<div class="introduction">
 						<h1 class="title">新闻中心</h1>
-						<div class="news">等待填充</div>
+						<div class="news">
+							<p>2016年5月27日，2016珠海CHINC中华医院信息网络大会暨中美医院信
+								息化论坛在广东珠海国际会展中心(珠海厅)隆重召开。本次大会是国家
+								级医学继续教育项目，邀请了国内外百余名业内专家、学者和科技人员，
+								进行学术报告、技术交流。创辉医疗作为智慧医疗的方案商，应邀参加本
+								届会议，为到会嘉宾们展示了专业级的医疗物联网信息管理解决方案。
+							</p>
+							<p>未来的医疗行业必定会全面向数据智能一体化发展，
+								创辉医疗在本次大会中展出的流量计产品，搭载低成本高敏传感器，
+								精确测量液体流量流速的变化，可以在后台软件管理系统进行实时监控，
+								确保输液引流等医疗行为更加安全可控，大大提高医护人员的工作效率。
+							</p>
+						</div>
 					</div>
 				</div>
+				</div>
+				
 
 				<div class="line"></div>
 
@@ -237,7 +258,9 @@
 						<table>
 							<th>
 								<td>
-									<img src="__IMG__/1.png" />
+									<a href="../Productinfo/info4.html">
+									<img src="__IMG__/1.png" />										
+									</a>
 								</td>
 							</th>
 						</table>
@@ -246,7 +269,9 @@
 						<table>
 							<th>
 								<td>
+									<a href="../Solution/solution3.html">
 									<img src="__IMG__/2.png" />
+									</a>
 								</td>
 							</th>
 						</table>
@@ -255,7 +280,9 @@
 						<table>
 							<th>
 								<td>
+									<a href="../Productinfo/info3.html">
 									<img src="__IMG__/3.png" />
+									</a>
 								</td>
 							</th>
 						</table>
@@ -270,3 +297,32 @@
 	</body>
 
 </html>
+	<div id="goTopBtn">
+		<a href="#" class="go-top">
+			<span class="iconfont icon-xiangshang"></span>
+		</a>
+	</div>	
+	<script type="text/javascript">
+ $(window).scroll(function(){
+   var $sc=$(window).scrollTop();
+   if ($sc > 100 ) {
+                $('#right_iconbox').fadeIn(500);
+            }
+
+            if ($sc >= 500) {
+
+                $('.go-top').stop().animate({
+                    opacity: 1
+                }, 500);
+            } else {
+
+                $('.go-top').stop().animate({
+                    opacity: 0
+                }, 500);
+            }
+ })
+ $("#goTopBtn").click(function(){
+   var sc=$(window).scrollTop();
+   $('body,html').animate({scrollTop:0},500);
+ })
+</script>
