@@ -467,3 +467,38 @@
 	width:80%;
 	margin:0 auto;
 }
+.sidebar{
+    position: fixed;
+    right: 10px;
+    top: 31%;
+    width: 8%;
+    height: 300px;
+    list-style: none;
+    display: block;
+    padding-left: 3px;
+    text-decoration: none;
+}
+.sidebar a{
+	text-decoration: none;
+	font-size: small;
+    color: #727071;
+}
+.sidebar .sidetitle{
+	display: block;
+	font-weight: 700;
+}
+.sidebar ul{
+	display: block;
+    padding: 0;
+    list-style: none;
+    
+}
+.sidebar ul li{
+	display: block;
+	list-style: none;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.stronger{
+	font-weight: 600;
+}

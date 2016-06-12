@@ -119,7 +119,7 @@ body .container > .content
 	height:30px;
 	line-height:30px;
 	font-weight: 500;
-	font-size:15px;
+	font-size:18px;
 	padding:0px;
 }
 
@@ -383,6 +383,7 @@ body .container > .content
 .location .position
 {
 	margin-left:80px;
+	font-size: 17px;
 }
 
 .location .position .split
@@ -390,7 +391,10 @@ body .container > .content
 	color:#cac8c9;
 }
 
-
+.location .position span
+{
+	font-size: 16px;
+}
 
 
 .left
@@ -405,7 +409,7 @@ body .container > .content
 #goTopBtn{
 	position: fixed;
     top: 80%;
-    right: 20px;
+    right: 56px;
     width: 70px;
     height: 70px;
     z-index: 800;
@@ -414,7 +418,7 @@ body .container > .content
 	width: 100%;
 	height: 100%;
 	display: inline-block;
-	opacity: 1;
+	opacity: 0;
 	text-decoration: none;
 }
 @font-face {font-family: "iconfont";
@@ -428,8 +432,6 @@ body .container > .content
 .iconfont {
 	width: 100%;
 	height: 100%;
-	border-radius: 50%;
-    background-color: #CBCED5;
   font-family:"iconfont" !important;
   font-size:60px;
   font-style:normal;
