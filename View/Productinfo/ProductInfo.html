@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="__CSS__/global.css" />
+		<link rel="stylesheet" href="__CSS__/proinfomain.css">
+		<script src="__CSS__/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="__CSS__/bower_components/jquery.cookie/jquery.cookie.js"></script>
+		<script src="__JS__/lang.js"></script>
+	</head>
+	<body class="proinfomain">
+		<div class="container">
+	
+	<include file="./Application/Doctor/View/Global/head.html" />
+		
+		<div class="location">
+			<div class="position">
+				<span class="text">首页</span>
+				<span class="split">/</span>
+				<span class="text">产品信息</span>
+
+			</div>	
+		</div>
+		
+		<div class="banner-container">
+			<div class="banner">
+			<div class="title">产品与技术</div>
+			<div class="subtitle">blabla</div>
+			</div>
+		</div>
+		<div id="content" class="content">
+			<div class="bgcontainer">
+				<div class="produc-bg bg1" id="neikui">
+				<div class="product-left">
+					<img src="__IMG__/2.png"/>
+				</div>
+				<div class="product-right">
+					<h2>电子内窥镜</h2>
+					<p>创辉提供方便、高清的可视喉镜，让手术更加便捷安全</p>
+					<p>
+						<a href="{:U('Doctor/Productinfo/info2','','')}">了解可视喉镜</a>
+					</p>
+				</div>
+			</div>
+			</div>
+			
+			<div class="bgcontainer"> 
+				<div class="produc-bg bg2" id="shengli">
+				<div class="product-left">
+					<h2>生理体征检测</h2>
+					<p>主动式体温贴，可以连续监测体温,精确测温，高度集成,方便佩戴，无线通信,发烧警报，呵护您和您的孩子的健康</p>
+					<p>
+						<a href="{:U('Doctor/Productinfo/info4','','')}">了解主动式体温贴</a>
+					</p>
+				</div>
+				<div class="product-right">
+					<img src="__IMG__/2.png"/>
+				</div>
+				
+			</div>
+			</div>
+			
+			<div class="bgcontainer">
+				<div class="produc-bg bg3" id="yali">
+				<div class="product-left">
+					<img src="__IMG__/2.png"/>
+				</div>
+				<div class="product-right">
+					<h2>压力监测</h2>
+					<p>创辉研发了便捷，灵敏的肺功能计，适用于呼吸系统早期病变的评估</p>
+					<p>
+						<a href="{:U('Doctor/Productinfo/info1','','')}">了解肺功能计</a>
+					</p>
+				</div>
+			</div>
+			</div>
+			
+			
+		</div>
+		
+		
+		<include file="./Application/Doctor/View/Global/footer.html" />
+		
+		</div>
+	</body>
+</html>

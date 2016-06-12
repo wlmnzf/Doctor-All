@@ -1,0 +1,61 @@
+.banner{
+	width: 80%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.banner .title{
+	font-size: 50px;
+	
+}
+.banner .subtitle{
+	
+}
+.banner-container{
+	width: 100%;
+}
+.content .bgcontainer{
+	width: 100%;
+	    padding-top: 5px;
+	background-color: rgba(217, 220, 226, 0.23);
+	box-shadow: 0px 1px 1.5px 1px #D2CCCC;
+}
+.content .produc-bg{
+	width: 80%;
+    margin: 0 auto;
+    height: 300px;
+}
+.content .produc-bg h2{
+	width: 65%;
+	margin: 8px auto;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+.content .produc-bg .product-left{
+	float: left;
+    height: 100%;
+    width: 50%;
+    right: 50%;
+}
+.content .produc-bg .product-right{
+	float: left;
+    height: 100%;
+    width: 50%;
+    left: 50%;
+}
+.content .produc-bg p{
+	word-break: break-word;
+	width: 65%;
+	margin: 0 auto;
+	font-size: 14px;
+    line-height: 20px;
+    color: #767676;
+    padding-top: 24px;
+}
+.content .produc-bg p>a{
+	text-decoration: none;
+	color: #2AABD2;
+}

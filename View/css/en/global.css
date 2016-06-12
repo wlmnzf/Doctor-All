@@ -107,6 +107,12 @@ body .container > .content
 	 white-space:nowrap;
   overflow: hidden;
 }
+.head .nav .fucing-a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
 
 .head .nav a div,.head .nav >div
 {
@@ -369,7 +375,7 @@ body .container > .content
 /* ========== */
 .location
 {
-	width:80%;
+	width:100%;
 	/*max-width:1080px;*/
 	margin:0 auto;
 	
@@ -388,7 +394,10 @@ body .container > .content
 {
 	color:#cac8c9;
 }
-
+.location .position span
+{
+	font-size: 16px;
+}
 
 
 
@@ -401,5 +410,39 @@ body .container > .content
 {
 	float:right;
 }
+#goTopBtn{
+	position: fixed;
+    top: 80%;
+    right: 56px;
+    width: 70px;
+    height: 70px;
+    z-index: 800;
+}
+#goTopBtn .go-top{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	opacity: 0;
+	text-decoration: none;
+}
+@font-face {font-family: "iconfont";
+  src: url('../../EOT/iconfont.eot'); /* IE9*/
+  src: url('../../EOT/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../EOT/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../../EOT/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../../EOT/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
 
+.iconfont {
+	width: 100%;
+	height: 100%;
+  font-family:"iconfont" !important;
+  font-size:60px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #5D5F63;
+    
+}
 

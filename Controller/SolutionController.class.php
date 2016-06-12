@@ -21,4 +21,7 @@ class SolutionController extends Controller {
      public function solution4(){
         $this->show();
     }
+	 public function solutionmain(){
+        $this->show();
+    }
 }

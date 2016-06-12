@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="__CSS__/global.css" />
+		<link rel="stylesheet" href="__CSS__/solutionmain.css">
+		<script src="__CSS__/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="__CSS__/bower_components/jquery.cookie/jquery.cookie.js"></script>
+		<script src="__CSS__/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="__JS__/lang.js"></script>
+	</head>
+	<body class="solutionmain">
+		<div class="container">
+	
+	<include file="./Application/Doctor/View/Global/head.html" />
+		
+		<div class="location">
+			<div class="position">
+				<span class="text">首页</span>
+				<span class="split">/</span>
+				<span class="text">解决方案</span>
+
+			</div>	
+		</div>
+		
+		<div class="banner-container">
+			<div class="banner">
+			<div class="title">解决方案</div>
+			<div class="subtitle">blabla</div>
+			</div>
+		</div>
+		
+		<div class="detail_nav_container">
+			<ul id="myTab" class="nav nav-tabs chose_tab">
+				<li class="active">
+					<a href="#neikuijing" data-toggle="tab">
+   	  				 <span class="chose_tab1">内窥镜方案</span>
+		   				</a>
+				</li>
+				<li><a href="#wenshidu" data-toggle="tab"><span class="chose_tab2">环境温湿度方案</span></a></li>
+				
+				<li><a href="#pressure" data-toggle="tab"><span class="chose_tab3">压力监测方案</span></a></li>
+			</ul>
+		</div>
+				
+		<div class="detail_container">
+			<div id="myTabContent" class="tab-content">
+						<!--this is neikuijing detail-->
+				<div id="neikuijing" class="content tab-pane fade active in">
+					<div class="bgcontainer">
+						<div class="produc-bg bg1" id="chaowei">
+							<div class="product-left">
+								<img src="__IMG__/2.png"/>
+							</div>
+							<div class="product-right">
+								<h2>超微型电子内窥镜</h2>
+								<p>内窥镜手术在取代开放创口型手术时，将减少病人术后痛苦，提升复原速度。有效减轻病人负担，这正是微创型可是手术流行的原因</p>
+								<p>
+									<a href="{:U('Doctor/Solution/solution1','','')}">了解更多</a>
+								</p>
+							</div>
+						</div>
+					</div>
+			
+					<div class="bgcontainer"> 
+					<div class="produc-bg bg2" id="gaoqing">
+					<div class="product-left">
+						<h2>高清电子内窥镜</h2>
+						<p>大屏幕监视器和可放大的可视化设备助力外科手术过程，可以使得外科医生在一定距离以外使用那个内窥镜，可将从切口处插入的手用器械的干扰降至最低。</p>
+						<p>
+							<a href="{:U('Doctor/Solution/solution1_1','','')}">了解更多</a>
+						</p>
+					</div>
+					<div class="product-right">
+						<img src="__IMG__/2.png"/>
+					</div>
+				
+					</div>
+						</div>
+				</div>
+					<!--this is T&H detail pane-->
+					<div id="wenshidu" class="content content tab-pane fade">
+				<div class="bgcontainer">
+					<div class="produc-bg bg1" id="huanjing">
+					<div class="product-left">
+						<img src="__IMG__/2.png"/>
+					</div>
+					<div class="product-right">
+						<h2>环境温湿度监控系统</h2>
+						<p>创辉专注于高精度、稳定可靠的产品解决方案定制湿度传感器，确保高精度测量，简易快捷的施工队，客户现有场馆和日常活动没有任何影响</p>
+						<p>
+							<a href="{:U('Doctor/Solution/solution2','','')}">了解更多</a>
+						</p>
+					</div>
+				</div>
+				</div>
+			
+				<div class="bgcontainer"> 
+					<div class="produc-bg bg2" id="coldchain">
+					<div class="product-left">
+						<h2>智能冷链监控系统</h2>
+						<p>我们定制适用于不同运势方式冷链的温湿度监控系统，根据运输需求定制外观、系统、管理界面</p>
+						<p>
+							<a href="{:U('Doctor/Solution/solution3','','')}">了解更多</a>
+						</p>
+					</div>
+					<div class="product-right">
+						<img src="__IMG__/2.png"/>
+					</div>
+				
+					</div>
+						</div>
+				</div>				
+					
+				<!--this is pressure one-->
+				<div id="pressure" class="content content tab-pane fade">
+				<div class="bgcontainer">
+					<div class="produc-bg bg1" id="shuye">
+					<div class="product-left">
+						<img src="__IMG__/2.png"/>
+					</div>
+					<div class="product-right">
+						<h2>输液监控</h2>
+						<p>精确自动监测液体流速，液体流速异常提示，气泡异常提醒，液体回流提醒</p>
+						<p>
+							<a href="{:U('Doctor/Productinfo/info3','','')}">了解更多</a>
+						</p>
+					</div>
+				</div>
+				</div>
+			
+				
+			
+			</div>	
+		</div>
+					
+		
+		</div>
+		<include file="./Application/Doctor/View/Global/footer.html" />	
+		</div>
+	</body>
+</html>

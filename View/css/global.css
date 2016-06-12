@@ -109,6 +109,13 @@ body .container > .content
   overflow: hidden;
 }
 
+.head .nav .fucing-a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 .head .nav a div,.head .nav >div
 {
 	 /*white-space:nowrap;*/
@@ -370,7 +377,7 @@ body .container > .content
 /* ========== */
 .location
 {
-	width:80%;
+	width:100%;
 	/*max-width:1080px;*/
 	margin:0 auto;
 	

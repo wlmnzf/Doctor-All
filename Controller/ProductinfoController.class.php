@@ -16,5 +16,7 @@ class ProductinfoController extends Controller {
     public function info4(){
         $this->show();
     }
-
+	public function ProductInfo(){
+        $this->show();
+    }
 }
