@@ -170,7 +170,9 @@ body .container > .content
 
 .head .nav .one
 {
-	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
   /*  border-left: 1px solid #9E9E9E;*/
     margin: 0 20px;
 	width: auto;
@@ -239,6 +241,17 @@ body .container > .content
 {
 	background-color: #F4F4F4;
 }
+ /*showtab position change*/
+.gaikuangtab{
+	padding-left: 50%;
+}
+.protab{
+	padding-left: 45%;
+}
+.solutab{
+	padding-left: 51%;
+}
+
 /*.head .nav div:hover ul
 {
 	display:block;
@@ -401,6 +414,10 @@ body .container > .content
 .location .position span
 {
 	font-size: 16px;
+}
+.location .position a
+{
+	text-decoration: none;
 }
 
 

@@ -39,14 +39,17 @@
     height: 100%;
     width: 50%;
     right: 50%;
+    text-align:center;
 }
 .content .produc-bg .product-right{
 	float: left;
     height: 100%;
     width: 50%;
     left: 50%;
+    text-align:center;
 }
 .content .produc-bg p{
+	text-align: left;
 	word-break: break-word;
 	width: 65%;
 	margin: 0 auto;

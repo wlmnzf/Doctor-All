@@ -6,6 +6,29 @@
 var regChar=new Array("*",".","?","+","$","^","[","]","(",")","{","}","|");
 
 
+//滑动监听,返回顶部
+$(window).scroll(function(){
+  		 var $sc=$(window).scrollTop();
+ 	  if ($sc > 100 ) {
+                $('#right_iconbox').fadeIn(500);
+            }
+
+            if ($sc >= 500) {
+
+                $('.go-top').stop().animate({
+                    opacity: 1
+                }, 500);
+            } else {
+
+                $('.go-top').stop().animate({
+                    opacity: 0
+                }, 500);
+            }
+ 		})
+ 		$("#goTopBtn").click(function(){
+	    var sc=$(window).scrollTop();
+   		$('body,html').animate({scrollTop:0},500);
+ 		})
 
 
 /**

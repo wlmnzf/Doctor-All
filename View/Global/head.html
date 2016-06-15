@@ -11,10 +11,10 @@
 				    <a a href="{:U('Doctor/Index/index','','')}"><div class="logo"></div></a>
 				 	<div class="nav">
 				 		<a href="{:U('Doctor/Index/index','','')}"><div>首页</div></a>
-				 		<div>关于我们
+				 		<div><a href="{:U('Doctor/Aboutus/aboutus1','','')}" class="fucing-a"><div>关于我们</div></a>
 				 		   <div class="showtab">
 				 		   	<div class="content">
-				 		   	  <div class="one">
+				 		   	  <div class="one gaikuangtab">
 				 		   	  	<h2>公司概况</h2>
 				 		   	      <ul>
 						 		   	   <li><a href="{:U('Doctor/Aboutus/aboutus1','','')}">企业简介</a></li>
@@ -29,7 +29,7 @@
 				 		<div><a href="{:U('Doctor/Productinfo/ProductInfo','','')}" class="fucing-a"><div>产品信息</div></a>
 				 			<div class="showtab">
 				 		   	<div class="content">
-					 			<div class="one">
+					 			<div class="one protab">
 					 				<h2>电子内窥镜</h2>
 					 		   	    <ul>
 						 		   	   <li><a href="{:U('Doctor/Productinfo/info2','','')}">可视喉镜</a></li>
@@ -57,7 +57,7 @@
 				 		<div><a href="{:U('Doctor/Solution/solutionmain','','')}" class="fucing-a"><div>解决方案</div></a>
 				 			<div class="showtab">
 					 		   	<div class="content">
-						 			<div class="one">
+						 			<div class="one solutab">
 						 				<h2>内窥镜方案</h2>
 								 		    <ul>
 								 		   	   <li><a href="{:U('Doctor/Solution/solution1','','')}">超微型电子内窥镜</a></li>
@@ -96,27 +96,3 @@
 			<span class="iconfont">&#xe6a3;</span>
 		</a>
 	</div>	
-	<script type="text/javascript">
- 	$(window).scroll(function(){
-  		 var $sc=$(window).scrollTop();
- 	  if ($sc > 100 ) {
-                $('#right_iconbox').fadeIn(500);
-            }
-
-            if ($sc >= 500) {
-
-                $('.go-top').stop().animate({
-                    opacity: 1
-                }, 500);
-            } else {
-
-                $('.go-top').stop().animate({
-                    opacity: 0
-                }, 500);
-            }
- 		})
- 		$("#goTopBtn").click(function(){
-	    var sc=$(window).scrollTop();
-   		$('body,html').animate({scrollTop:0},500);
- 		})
-	</script>

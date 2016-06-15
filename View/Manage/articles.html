@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="__CSS__/bower_components/bootstrap/dist/css/bootstrap.min.css"  />
+		<!--<link rel="stylesheet" href="__CSS__/aricles.css"/>-->
+		<link rel="stylesheet" href="__CSS__/bower_components/animate.css/animate.css"/>
+		<script src="__CSS__/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="__CSS__/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="__ROOT__/Application/Doctor/UEditor/ueditor.config.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="__ROOT__/Application/Doctor/UEditor/ueditor.all.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<textarea name="content" id="editor"> </textarea>
+		<script type="text/javascript">
+			
+		</script>
+    <script type="text/javascript">
+    window.UEDITOR_HOME_URL='__ROOT__/Application/Doctor/UEditor';
+
+		window.onload=function(){
+			window.UEDITOR_CONFIG.initialFrameHeight=300;//编辑器的高度
+    		window.UEDITOR_CONFIG.initialFrameWidth=800;//编辑器的宽度
+          	var ue = UE.getEditor('editor');//要传入一个ID才能显示编辑器，即textarea中的id
+      }
+    </script>
+	</body>
+</html>

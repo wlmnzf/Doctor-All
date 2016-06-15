@@ -39,12 +39,14 @@
     height: 100%;
     width: 50%;
     right: 50%;
+    text-align:center;
 }
 .content .produc-bg .product-right{
 	float: left;
     height: 100%;
     width: 50%;
     left: 50%;
+    text-align:center;
 }
 .content .produc-bg p{
 	word-break: break-word;
@@ -54,6 +56,7 @@
     line-height: 20px;
     color: #767676;
     padding-top: 24px;
+    text-align:left;
 }
 .content .produc-bg p>a{
 	text-decoration: none;

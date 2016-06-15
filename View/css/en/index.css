@@ -260,9 +260,9 @@
 .indexpage .banner li .title1
 {
 	position: absolute;
-    top: 4%;
-    left: 3%;
-    font-size: 79px;
+    top: 0.5%;
+    left: 4%;
+    font-size: 42px;
     color: deepskyblue;
     text-decoration: none;
     
@@ -272,7 +272,7 @@
     position: absolute;
     top: 2%;
     left: 3%;
-    font-size: 92px;
+    font-size: 49px;
     color: deepskyblue;
     text-decoration: none;
 }
@@ -280,33 +280,33 @@
 {
     position: absolute;
     top: 48%;
-    left: 50%;
-    width:300px;
-    margin-left: -120px;
-    font-size: 60px;
+    left: 38%;
+    width: 22%;
+    font-size: 30px;
     color: deepskyblue;
     text-decoration: none;
+    text-align: center;
 }
 .indexpage .banner li .subtitle1
 {
 	position: absolute;
-    top: 36%;
-    left: 11%;
-    font-size: 34px;
+    top: 22%;
+    left: 10%;
+    font-size: 25px;
 }
 .indexpage .banner li .subtitle2
 {
     position: absolute;
-    top: 48%;
-    left: 11%;
-    font-size: 34px;
+    top: 33%;
+    left: 10%;
+    font-size: 25px;
 }
 .indexpage .banner li .subtitle3
 {
     position: absolute;
     top: 23%;
     left: 2%;
-    font-size: 49px;
+    font-size: 33px;
     color: white;
 }
 
@@ -318,7 +318,7 @@
 
 .detail_nav_container{
 	width: 125%;
-    height: 100px;
+    height: 50px;
     margin-left: -12.5%;
     padding-top: 0px;
     
@@ -328,14 +328,14 @@
 
 .detail_container{
 	display: block;
-	padding-top: 20px;
+	padding-top: -10px;
 	width: 100%;
-	height: 650px;
+	height: 360px;
 }
 
 .detail_nav_container .chose_tab{
 	width: 80%;
-    height: 100px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -359,7 +359,7 @@
 .detail_nav_container .chose_tab li a span{
 	text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     display: table-cell;
     vertical-align: middle;
     width: 100%;
@@ -367,12 +367,12 @@
 
 .detail_container .tab-pane .content-text{
 	overflow: hidden;
-    padding: 60px 0px 20px 0px;
     text-align: center;
 }
 .detail_container .tab-pane .content-text h2{
 	font-size: 42px;
-    padding-bottom: 10px;
+        margin-top: 15px;
+    margin-bottom: 3px;
     color: #333;
 }
 
@@ -382,7 +382,6 @@
 }
 .detail_container .tab-pane .content-item{
 	width: 100%;
-	padding-bottom: 35px;
 }
 .detail_container .tab-pane .content-item .row{
 	 margin: 0;
@@ -393,7 +392,8 @@
         list-style-type: none;
 }
 .detail_container .tab-pane .content-item .row li{
-	padding: 15px;
+	padding-left: 15px;
+    padding-right: 15px;
     overflow: hidden;
     position: relative;
     width: 22%;
@@ -409,7 +409,7 @@
 }
 .detail_container .tab-pane .content-item .row li a .item-image img{
 	width: 100%;
-	height:190px;
+	height:180px;
 }
 
 .detail_container .tab-pane .content-item .row li a .item-text{

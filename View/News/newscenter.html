@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新闻中心</title>
+		<link rel="stylesheet" href="__CSS__/global.css" />
+		<link rel="stylesheet" href="__CSS__/aboutus.css" />
+		<script src="__CSS__/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="__CSS__/bower_components/jquery.cookie/jquery.cookie.js"></script>
+		<script src="__JS__/lang.js"></script>
+	</head>
+	<body>
+		
+		<div class="container">
+			
+        <include file="./Application/Doctor/View/Global/head.html" />
+		
+		<div  class="location">
+			<div class="position">
+				<span class="text"><a href="{:U('Doctor/Index/index','','')}">首页</a></span>
+				<span class="split">/</span>
+				<span class="text">关于我们</span>
+				<span class="split">/</span>
+				<span class="text">企业简介</span>
+			</div>			
+		</div>
+		
+		<div id="content" class="content">
+			<h2 class="title">企业简介</h2>
+			<div class="together">
+			    <div class="text">杭州创辉医疗电子设备有限公司（以下简称“创辉医疗”）是一家从事高端医疗电子耗材研发、生产和销售的科技创新型企业，公司经过数年医疗电子产品方案的研发设计，积累了大量的医疗电子专利技术。创辉医疗专注于应用最先进的定制化传感器芯片与无线通信技术，提供新一代微型化、低成本、低功耗、高性能的可抛弃式高端医疗电子耗材产品。核心团队在微电子行业有着多年的产品开发经验，累积了丰富的传感器芯片与无线传输芯片核心技术，通过对整体系统的定义，配合独特的后端信息处理算法、结构设计、先进制造工艺、临床测试，最终形成自主知识产权的新型医疗电子产品完整方案。
+				公司拥有涵盖硬件、软件、产品结构设计和测试的专业研发团队，并与国内外知名企业与高校保持长期紧密的合作关系。创辉医疗将在最短的时间发展成为集研发、生产和市场销售于一体的医疗电子耗材领军企业。
+				</div>
+		        <div class="map"><img src="__IMG__/map_clean.png"/>
+ 					<div class="america">美国</div><div class="sweden">瑞典</div><div class="hangzhou">杭州</div><div class="shanghai">上海</div><div class="shenzhen">深圳</div>
+		        </div>
+
+		        <div class="ps">创辉与上海、杭州、深圳、美国、瑞典的多家公司有合作关系</div>
+		    </div>
+		</div>
+		
+		
+		
+	<include file="./Application/Doctor/View/Global/footer.html" />
+		
+			</div>
+	</body>
+</html>
