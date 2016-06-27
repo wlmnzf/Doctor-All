@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新闻中心</title>
+		<link rel="stylesheet" href="__CSS__/global.css" />
+		<link rel="stylesheet" href="__CSS__/newscenter.css" />
+		<script src="__CSS__/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="__CSS__/bower_components/jquery.cookie/jquery.cookie.js"></script>
+		<script src="__JS__/lang.js"></script>
+		<script src="__JS__/newschose.js"></script>
+	</head>
+	<body class="news">
+		
+		<div class="container">
+			
+        <include file="./Application/Doctor/View/Global/head.html" />
+		
+		<div  class="location">
+			<div class="position">
+				<span class="text"><a href="{:U('Doctor/Index/index','','')}">首页</a></span>
+				<span class="split">/</span>
+				<span class="text">新闻中心</span>
+			</div>			
+		</div>
+		
+		<div class="content">
+			<div class="leftarea">
+				<div class="left-content">
+					<div class="section">
+						<a href="{:U('Doctor/News/newscenter1','','')}">公司要闻</a>
+					</div>
+					<div class="section stronger">
+						<a href="{:U('Doctor/News/newscenter2','','')}">行业新闻</a>
+					</div>
+					<div class="section">
+						<a href="{:U('Doctor/News/newscenter3','','')}">展会信息</a>
+					</div>
+				</div>
+			</div>
+			<div class="rightarea">
+				<div class="right-content">
+					<div class="news" id="companynews">
+						<div  class="article">
+							
+							<p>暂无新闻:)</p>
+							
+						</div>
+						
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		
+			<include file="./Application/Doctor/View/Global/footer.html" />
+		
+	</div>
+	</body>
+</html>

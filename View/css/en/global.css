@@ -88,8 +88,8 @@ body .container > .content
 .head .line .logo
 {
 	background: url(../../img/logo.png);
-	width:150px;
-	height:41px;
+	width:232px;
+	height:64px;
 	background-size:100% 100%;
 	float:left;
 	
@@ -97,8 +97,8 @@ body .container > .content
 .head .nav
 {
 	min-width: 620px;
-	float:right;
-    margin-top: 20px;
+	float:left;
+    margin-top: 36px;
     margin-right:85px
    
 }
@@ -159,7 +159,7 @@ body .container > .content
 	position:absolute;
 	left:0;
 	right:0;
-	width:80%;
+	width:1170px;
 	height:100%;
 	margin:0 auto;
 	
@@ -387,7 +387,9 @@ body .container > .content
 
 .location .position
 {
-	margin-left:80px;
+	width: 1170px;
+	margin: 0 auto;
+	font-size: 17px;
 }
 
 .location .position .split
@@ -396,6 +398,11 @@ body .container > .content
 }
 .location .position span
 {
+	font-size: 16px;
+}
+.location .position a
+{
+	text-decoration: none;
 	font-size: 16px;
 }
 

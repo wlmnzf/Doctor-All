@@ -80,62 +80,68 @@
     
         /*overflow: hidden;*/
 }
-
 .new-container{
 	width: 125%;
     margin-left: -12.5%;
     background-color: #CBCED5;
+    height: 350px;
 }
 .indexpage .news
 {
     overflow: hidden;
     word-break:break-all;
-        width: 80%;
-    margin-left: 10%;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 3em; 
 }
-.indexpage .news div
-{
-   float:left;	
+.indexpage .news a{
+	text-decoration: none;
+	color: #009fe3;
 }
-
-.indexpage .news p
+.indexpage .news .leftnews
 {
-   text-indent: 26px;
-}
-
-.indexpage .container > .content .picture
-{
-	background:url(../../img/doctor.png) no-repeat;
-	height:100%;
-	width:432px;
-	height:492px;
-	background-size:100% 100%;
-	float: left;
-}
-
-.indexpage .container > .content .introduction
-{
-	width: 500px;/*写给不支持calc()的浏览器*/
-	width:-moz-calc(100% - 447px);
-	width:-webkit-calc(100% - 447px);
-	width: calc(100% - 447px);
-	
-	
-	height:350px;
-	margin-top:71px;
-	float: left;
+	width: 500px;
+	height:320px;
+	margin-bottom: 15px;
+	float:left;
 	
 }
-
-.indexpage .container > .content .introduction .title
-{
-	/*font-size:16px;
-	font-weight:bold;
-	margin-bottom:10px*/
-	font-size:25px;
+.indexpage .news .leftnews .article img{
+	position: absolute;
+    right: 0;
+    top: 60px;
+    display: block;
+        margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-
-
+.indexpage .news .leftnews .article p{
+	margin-top: 46px;
+    width: 276px;
+}
+.indexpage .news .rightnewses{
+	float: right;
+	width: 350px;
+}
+.indexpage .news .article{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 1em;
+	position: relative;
+}
+.indexpage .news .article h3{
+	color: #009fe3;
+}
+.indexpage .news  h1{
+	color: #009fe3;
+	margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+}
 .indexpage .container > .content > .line
 {
 	width:100%;
@@ -261,8 +267,8 @@
 {
 	position: absolute;
     top: 0.5%;
-    left: 4%;
-    font-size: 42px;
+    left: 27%;
+    font-size: 36px;
     color: deepskyblue;
     text-decoration: none;
     
@@ -270,19 +276,19 @@
 .indexpage .banner li .title2
 {
     position: absolute;
-    top: 2%;
-    left: 3%;
-    font-size: 49px;
+    top: 0%;
+    left: 27%;
+    font-size: 36px;
     color: deepskyblue;
     text-decoration: none;
 }
 .indexpage .banner li .title3
 {
     position: absolute;
-    top: 48%;
-    left: 38%;
+    top: 44%;
+    left: 39%;
     width: 22%;
-    font-size: 30px;
+    font-size: 36px;
     color: deepskyblue;
     text-decoration: none;
     text-align: center;
@@ -290,26 +296,25 @@
 .indexpage .banner li .subtitle1
 {
 	position: absolute;
-    top: 22%;
-    left: 10%;
-    font-size: 25px;
+	top: 15%;
+    left: 27%;
+    font-size: 20px;
 }
-.indexpage .banner li .subtitle2
+/*.indexpage .banner li .subtitle2
 {
     position: absolute;
     top: 33%;
     left: 10%;
     font-size: 25px;
-}
+}*/
 .indexpage .banner li .subtitle3
 {
     position: absolute;
-    top: 23%;
-    left: 2%;
-    font-size: 33px;
+    top: 14%;
+    left: 27%;
+    font-size: 20px;
     color: white;
 }
-
 .indexpage .banner li img
 {
 	width:100%;
@@ -321,20 +326,19 @@
     height: 50px;
     margin-left: -12.5%;
     padding-top: 0px;
-    
-    background-color: #CBCED5;
+    background-color: #eee;
 }
 
 
 .detail_container{
 	display: block;
-	padding-top: -10px;
-	width: 100%;
+	width: 1170px;
 	height: 360px;
+    margin: 0 auto;
 }
 
 .detail_nav_container .chose_tab{
-	width: 80%;
+	width: 1170px;
     height: 100%;
     margin: 0 auto;
 }
@@ -409,7 +413,7 @@
 }
 .detail_container .tab-pane .content-item .row li a .item-image img{
 	width: 100%;
-	height:180px;
+	height:144px;
 }
 
 .detail_container .tab-pane .content-item .row li a .item-text{
@@ -453,6 +457,7 @@ nav{
   position: relative;
   display: block;
   padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -492,6 +497,7 @@ nav{
 .nav-tabs > li > a {
   margin-right: 2px;
   line-height: 1.42857143;
+  #009fe3
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
 }
@@ -502,9 +508,8 @@ nav{
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555;
-  cursor: default;
+  cursor: default;	
   background-color: #fff;
-  border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
 

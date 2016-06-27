@@ -19,7 +19,7 @@
 
 .aboutus  .container > .content
 {
-	width:80%;
+	width:1170px;
 	margin:0 auto;
 	/*max-width:1080px;*/
 }
@@ -29,13 +29,10 @@
 {
 	/*display:inline-block;*/
 	font-size:23px;
-	margin-left:10px;
 }
 
 .aboutus .container > .content .together
 {
-	width:80%;
-	margin:0 auto;
 }
 
 .aboutus .container > .content .together .text

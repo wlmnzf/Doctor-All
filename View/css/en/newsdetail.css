@@ -1,0 +1,61 @@
+a{
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+}
+.container>.content {
+	position: relative;
+    width: 980px;
+    margin: 0 auto;
+    min-height: 1026px;
+}
+.container>.content .leftarea{
+	    float: left;
+    width: 285px;
+    min-height: 1026px;
+    background: transparent url("../img/left_bg.jpg") no-repeat right top;
+}
+.container>.content .leftarea .section{
+	    padding: 12px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+.container>.content .leftarea .section a{
+	color: #009fe3;
+    margin: .8em 0 0;
+    font-size: 1em;
+}
+.rightarea{
+	    float: right;
+    width: 645px;
+}
+.rightarea .right-content{
+	padding-bottom: 50px;
+	
+}
+.rightarea .right-content .news{
+	margin-bottom: 1em;
+}
+.rightarea .right-content .news .article{
+	    border-bottom: 1px solid #ebebeb;
+}
+.rightarea .right-content .news .article h2{
+	margin: 1.5em 0 1.5em;
+    font-size: 1.5em;
+    color: #009fe3;
+    line-height: 1;
+    font-weight: 600;
+}
+.rightarea .right-content .news .article time{
+	font-size: .875em;
+    font-weight: 600;
+    color: #333;
+}
+.rightarea .right-content .news .article p {
+	text-align: left;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: .8em 0 1.8em;
+    color: #333;
+    text-indent: 27px;
+}

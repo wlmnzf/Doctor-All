@@ -1,72 +1,76 @@
-.info5 .content
-{
-	width:80%;
-	/*max-width:1080px;*/
-	margin:0 auto;
-	
-	min-height:300px;
+.productinfo .container > .content {
+  height: 2100px;
 }
-
-.info5 .content .text
-{
-	width:33%;
-	text-align: center;
-	margin-top:30px;
-	float:left;
+.productinfo .container > .content .paraContainer .para1 {
+  width: 100%;
+  height: 500px;
 }
-
-.info5 .content .text .head
-{
-	font-size: 25px;
-	font-weight: 600;
-	height:35px;
-	text-align:center;
-	
-	margin:3px;
-	/*padding:0 10px 0 10px;*/
+.productinfo .container > .content .paraContainer .para1 .bigtitle {
+  margin: 35px;
 }
-
-.info5 .content .text .line
-{
-   width:70%;
-   height:3px;
-   background-color:black;
-   margin:5px auto;
-   
-   
+.productinfo .container > .content .paraContainer .para1 .bigtitle span {
+  font-size: 50px;
+  text-indent: 150px;
+  font-weight: 400;
 }
-
-.info5 .content .text .english
-{
-   margin:0 auto;
-   font-weight:600;
-   text-align:center;
-   line-height: 30px;
-   margin:3px;
+.productinfo .container > .content .paraContainer .para1 .leftpic {
+  width: 400px;
+  height: 250px;
+  float: left;
 }
-
-.info5 .content .text ul
-{
-   margin-top:40px;
-   /*text-align: left;*/
-   /*list-style: none;*/
-   padding:0;
+.productinfo .container > .content .paraContainer .para1 .leftpic img {
+  width: 100%;
+  height: 100%;
 }
-
-.info5 .content .text ul li
-{
-  font-weight: 600;
-  font-size:16px;
-  width:50%;
-  margin:10px auto;
+.productinfo .container > .content .paraContainer .para1 .righttext {
+  width: 600px;
+  text-align: left;
+  float: right;
 }
-
-/*.info5 .content .text ul li:before
-{
-		content:"●";
-
-	font-size:3px;
-	color:#878787;
-	margin:0 4px; 
-	text-align:center;
-}*/
+.productinfo .container > .content .paraContainer .para1 .righttext p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.productinfo .container > .content .paraContainer .para2 {
+  width: 100%;
+  height: 700px;
+}
+.productinfo .container > .content .paraContainer .para2 .lefttext {
+  width: 600px;
+  text-align: left;
+  float: left;
+  margin-left: 40px;
+  margin-top: 150px;
+}
+.productinfo .container > .content .paraContainer .para2 .lefttext p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.productinfo .container > .content .paraContainer .para2 .rightpic {
+  width: 400px;
+  height: 500px;
+  float: right;
+}
+.productinfo .container > .content .paraContainer .para2 .rightpic img {
+  width: 100%;
+  height: 100%;
+}
+.productinfo .container > .content .paraContainer .para3 {
+  width: 100%;
+}
+.productinfo .container > .content .paraContainer .para3 .mtitle {
+  text-align: center;
+}
+.productinfo .container > .content .paraContainer .para3 .mtitle span {
+  font-size: 30px;
+  font-weight: 400;
+  color: #9E9E9E;
+}
+.productinfo .container > .content .paraContainer .para3 .functext {
+  text-indent: 50px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.productinfo .container > .content .paraContainer .para3 .colored {
+  background-color: #f0f0f0;
+}

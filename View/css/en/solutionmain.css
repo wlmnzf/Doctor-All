@@ -19,13 +19,15 @@
 .content .bgcontainer{
 	width: 100%;
 	    padding-top: 5px;
-	background-color: rgba(217, 220, 226, 0.23);
-	box-shadow: 0px 1px 1.5px 1px #D2CCCC;
+	box-shadow: 0px 1px 1.5px 1px rgba(217, 220, 226, 0.23);
 }
 .content .produc-bg{
 	width: 80%;
     margin: 0 auto;
     height: 300px;
+}
+.content .produc-bg img{
+	margin: 44px; 
 }
 .content .produc-bg h2{
 	width: 65%;

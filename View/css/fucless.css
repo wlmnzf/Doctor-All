@@ -1,15 +1,12 @@
 .productinfo .container > .content {
-  height: 2100px;
+  height: 1800px;
 }
 .productinfo .container > .content .paraContainer .para1 {
   width: 100%;
   height: 500px;
 }
-.productinfo .container > .content .paraContainer .para1 .bigtitle {
-  margin: 35px;
-}
-.productinfo .container > .content .paraContainer .para1 .bigtitle span {
-  font-size: 50px;
+.productinfo .container > .content .paraContainer .para1 .bigtitle h1 {
+  font-size: 40px;
   text-indent: 150px;
   font-weight: 400;
 }
@@ -24,10 +21,9 @@
 }
 .productinfo .container > .content .paraContainer .para1 .righttext {
   width: 600px;
-  text-align: left;
-  float: right;
+  text-align: right;
 }
-.productinfo .container > .content .paraContainer .para1 .righttext p {
+.productinfo .container > .content .paraContainer .para1 .righttext .p {
   font-size: 24px;
   font-weight: 400;
 }
@@ -38,11 +34,8 @@
 .productinfo .container > .content .paraContainer .para2 .lefttext {
   width: 600px;
   text-align: left;
-  float: left;
-  margin-left: 40px;
-  margin-top: 150px;
 }
-.productinfo .container > .content .paraContainer .para2 .lefttext p {
+.productinfo .container > .content .paraContainer .para2 .lefttext .p {
   font-size: 24px;
   font-weight: 400;
 }
@@ -61,7 +54,7 @@
 .productinfo .container > .content .paraContainer .para3 .mtitle {
   text-align: center;
 }
-.productinfo .container > .content .paraContainer .para3 .mtitle span {
+.productinfo .container > .content .paraContainer .para3 .mtitle h2 {
   font-size: 30px;
   font-weight: 400;
   color: #9E9E9E;
@@ -72,5 +65,5 @@
   font-weight: 400;
 }
 .productinfo .container > .content .paraContainer .para3 .colored {
-  background-color: #f0f0f0;
+  background-color: #A1A1A1;
 }
