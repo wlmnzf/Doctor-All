@@ -14,3 +14,13 @@
 	margin:0 4px; 
 	text-align:center;
 }
+.aboutus2 .container > .content .honorlist{
+	width: 900px;
+    margin: 0 auto;
+    height: 555px;
+}
+.aboutus2 .container > .content .honorlist img{
+	width: 300px;
+	display: block;
+	float: left;
+}

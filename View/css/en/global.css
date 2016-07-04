@@ -308,14 +308,15 @@ body .container > .content
     /* background-color: white; */
     width: 100%;
 }
-.footer div,.footer label
+.footer div,.footer label,.footer a
 {
 	color:white;
-	marign:2px;
+	text-decoration: none;
+	font-size: 14px;
 }
 .footer .footer_content
 {
-	width:80%;
+	width:1170px;
 	/*max-width:1080px;*/
 	margin:0 auto;
 	height:100%;
@@ -337,7 +338,10 @@ body .container > .content
 	font-weight:600;
 	margin-bottom:10px
 }
-
+.footer .contact
+{
+	width: 480px;
+}
 
 
 

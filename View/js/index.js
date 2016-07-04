@@ -11,7 +11,7 @@ window.onload = function(){
 }
 function banner_init()
 {
-	width=$(".banner li").eq(0).width();
+	width=$(".banner li").eq(0).width()*1.5;
 	$(".banner li").each(function(i)
 	{
 		$(this).css("left",i*width);

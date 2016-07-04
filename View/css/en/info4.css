@@ -46,7 +46,7 @@
 	.info4 .container > .content .tab .wen_title
 	{
 		position: absolute;
-	    top: 18%;
+	    top: 8%;
 	    width: 100%;
 	    left: 0;
 	    right: 0;
@@ -263,7 +263,7 @@
 .info4 .container > .content .oppsite .pic .slogn1
 {
 	    width: 300px;
-    margin: 0 43%;
+    margin: 0 37.5%;
     color: #9b9796;
     font-size: 35px;
     padding-top: 7%;
@@ -271,7 +271,7 @@
 .info4 .container > .content .oppsite .pic .slogn2
 {
 	    width: 300px;
-    margin: 0 43%;
+    margin: 0 41.5%;
     color: #9b9796;
     font-size: 25px;
     padding-top: 2%;

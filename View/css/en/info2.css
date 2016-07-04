@@ -1,77 +1,171 @@
-.info2 .together
-{
-	/*background:url(../../img/houbac.png) no-repeat;*/
-	width:100%;
-	/*height:400px;*/
-	
-	/*background-size: 100% 100%;*/
-    position:relative;
+.info2 .container > .content {
+  height: 2100px;
 }
-
-.info2 .together img
-{
-	width:100%;
+.info2 .container > .content .poster1 {
+  position: relative;
+  width: 100%;
+  height: 900px;
 }
-
-.info2  .container > .content .diamond
-{
-	position:absolute;
-	top: 5%;
-    left: 0;
-    right: 0;
+.info2 .container > .content .poster1 .lefttitle {
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  background-image: url("../../img/akuang.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 190px;
 }
-
-
-.info2  .container > .content .information
-{
-	position:absolute;
-	    top: 40%;
-	    width:80%;
-	    margin:0 auto;
-	    left:0;
-	    right:0;
+.info2 .container > .content .poster1 .lefttitle .uppertitle {
+  position: absolute;
+  left: 98px;
+  top: 0;
+  font-size: 24px;
+  color: white;
+  width: 50px;
 }
-
-.info2  .container > .content .information .picturelist
-{
-	width:100%;
+.info2 .container > .content .poster1 .lefttitle .bigone {
+  position: absolute;
+  left: 48px;
+  top: 82px;
+  font-size: 35px;
+  color: #9b9796;
 }
-
-.info2  .container > .content .information .picturelist div
-{
-	float:left;
-		width:28%;
+.info2 .container > .content .poster1 .lefttitle .smallt1 {
+  position: absolute;
+  left: 100px;
+  top: 153px;
+  color: #d2d1d1;
+  width: 10px;
+  word-break: break-all;
 }
-
-.info2  .container > .content .information .picturelist .current 
-{
-	width:38%;
-	margin: 0 3%;
+.info2 .container > .content .poster1 .lefttitle .smallt2 {
+  position: absolute;
+  left: 118px;
+  top: 153px;
+  color: #d2d1d1;
+  width: 10px;
+  word-break: break-all;
 }
-
-.info2  .container > .content .intro
-{
-	width:100%;
-	text-align: center;
-	font-size:50px;
-	    margin: 20px 0;
-    color: #babdc4;
+.info2 .container > .content .poster1 .houjingpic {
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
-.info2  .container > .content .name
-{
-	width:100%;
-	text-align: center;
-	    margin: 30px 0;
-
+.info2 .container > .content .poster1 .houjingpic img {
+  position: absolute;
+  display: block;
+  left: 42%;
+  bottom: 19%;
+  width: 250px;
 }
-
-.info2  .container > .content .name label
-{
-	    color: #babdc4;
-	    	font-size:40px;
+.info2 .container > .content .poster1 .para1 {
+  position: absolute;
+  width: 200px;
+  font-size: 19px;
+  left: 23%;
+  bottom: 23%;
+  text-align: right;
 }
-.info2 .container > .content .information .picture div
-{
-	width:33%;
-	float:left;
+.info2 .container > .content .poster1 .para2 {
+  position: absolute;
+  width: 200px;
+  font-size: 19px;
+  right: 16%;
+  top: 38%;
+}
+.info2 .container > .content .poster1 .para3 {
+  position: absolute;
+  width: 200px;
+  font-size: 19px;
+  right: 16%;
+  bottom: 22%;
+}
+.info2 .container > .content .poster2 {
+  height: 550px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding-top: 15px;
+}
+.info2 .container > .content .poster2 .midtitle {
+  width: 450px;
+  margin: 0 auto;
+  height: 175px;
+  background-image: url("../../img/kuangkuang.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.info2 .container > .content .poster2 .midtitle .headline {
+  font-size: 57px;
+  margin-top: 15px;
+  font-weight: 400;
+  color: #b3afaf;
+  text-align: center;
+}
+.info2 .container > .content .poster2 .midtitle .subheadline {
+  margin-top: 21px;
+  font-size: 31px;
+  font-weight: 400;
+  color: #9b9796;
+  text-align: center;
+}
+.info2 .container > .content .poster2 .fourkings {
+  width: 900px;
+  height: 170px;
+  position: relative;
+  margin: 130px auto 0;
+}
+.info2 .container > .content .poster2 .fourkings img {
+  width: 100%;
+  height: 100%;
+}
+.info2 .container > .content .poster2 .fourkings .tinyone {
+  display: block;
+  position: absolute;
+  right: 27%;
+  top: 40%;
+  font-size: 24px;
+}
+.info2 .container > .content .poster3 {
+  height: 300px;
+  margin: 50px 30px;
+}
+.info2 .container > .content .poster3 .lefttext {
+  width: 550px;
+  height: 100%;
+  float: left;
+  margin-top: 24px;
+}
+.info2 .container > .content .poster3 .lefttext p {
+  font-size: 24px;
+  margin: 10px;
+}
+.info2 .container > .content .poster3 .rightpic {
+  width: 550px;
+  float: right;
+  margin-top: 34px;
+}
+.info2 .container > .content .poster3 .rightpic img {
+  width: 100%;
+}
+.info2 .container > .content .poster4 {
+  width: 100%;
+}
+.info2 .container > .content .poster4 .mtitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.info2 .container > .content .poster4 .mtitle span {
+  font-size: 37px;
+  font-weight: 400;
+  color: #847F7F;
+}
+.info2 .container > .content .poster4 .functext {
+  text-indent: 50px;
+  font-size: 24px;
+  padding: 5px;
+  font-weight: 400;
+}
+.info2 .container > .content .poster4 .colored {
+  background-color: #f0f0f0;
 }

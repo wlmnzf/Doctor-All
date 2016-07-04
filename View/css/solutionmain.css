@@ -102,6 +102,7 @@
     cursor: pointer;
     overflow: hidden;
     text-decoration: none;
+    padding: 0px;
 }
 
 .detail_nav_container .chose_tab li a span{

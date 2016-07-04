@@ -61,3 +61,10 @@
 	text-decoration: none;
 	color: #2AABD2;
 }
+.content .produc-bg img{
+	display: block;
+    margin: 0 auto;
+    margin-top: 8%;
+    width: 325px;
+    height: 198px;
+}

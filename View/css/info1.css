@@ -1,3 +1,115 @@
 .info1 .container > .content {
   height: 2100px;
 }
+.info1 .container > .content .tab {
+  overflow: hidden;
+  position: relative;
+}
+.info1 .container > .content .tab .left-arrow {
+  background: url("../img/arrow.png");
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  top: 45%;
+  left: 15px;
+  z-index: 100;
+  cursor: pointer;
+  background-position: 0 100%;
+}
+.info1 .container > .content .tab .right-arrow {
+  background: url("../img/arrow.png");
+  width: 30px;
+  height: 60px;
+  background-position: 30px 100%;
+  position: absolute;
+  top: 45%;
+  right: 10px;
+  z-index: 100;
+  cursor: pointer;
+}
+.info1 .container > .content .tab .banner {
+  width: 970px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: none;
+}
+.info1 .container > .content .tab .banner ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  position: relative;
+  padding: 0;
+}
+.info1 .container > .content .tab .banner li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.info1 .container > .content .tab .banner li img {
+  width: 100%;
+}
+.info1 .container > .content .midtitle {
+  width: 450px;
+  margin: 0 auto;
+  height: 175px;
+  background-image: url("../img/kuangkuang.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 125px;
+}
+.info1 .container > .content .midtitle .headline {
+  font-size: 57px;
+  margin-top: 15px;
+  font-weight: 400;
+  color: #b3afaf;
+  text-align: center;
+}
+.info1 .container > .content .midtitle .subheadline {
+  margin-top: 21px;
+  font-size: 31px;
+  font-weight: 400;
+  color: #9b9796;
+  text-align: center;
+}
+.info1 .container > .content .stuff {
+  height: 300px;
+  margin: 50px 30px;
+}
+.info1 .container > .content .stuff .lefttext {
+  width: 550px;
+  float: left;
+  margin-top: 75px;
+}
+.info1 .container > .content .stuff .lefttext p {
+  font-size: 24px;
+  margin: 10px;
+}
+.info1 .container > .content .stuff .rightpic {
+  width: 281px;
+  float: right;
+}
+.info1 .container > .content .stuff .rightpic img {
+  width: 100%;
+}
+.info1 .container > .content .saigonomono {
+  width: 100%;
+}
+.info1 .container > .content .saigonomono .mtitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.info1 .container > .content .saigonomono .mtitle span {
+  font-size: 37px;
+  font-weight: 400;
+  color: #847F7F;
+}
+.info1 .container > .content .saigonomono .functext {
+  text-indent: 50px;
+  font-size: 24px;
+  padding: 5px;
+  font-weight: 400;
+}
+.info1 .container > .content .saigonomono .colored {
+  background-color: #f0f0f0;
+}

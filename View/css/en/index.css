@@ -100,7 +100,7 @@
 }
 .indexpage .news .leftnews
 {
-	width: 500px;
+	width: 650px;
 	height:320px;
 	margin-bottom: 15px;
 	float:left;
@@ -116,6 +116,7 @@
     border: 0;
     font-size: 100%;
     font: inherit;
+    width: 300px;
     vertical-align: baseline;
 }
 .indexpage .news .leftnews .article p{
@@ -310,7 +311,7 @@
 .indexpage .banner li .subtitle3
 {
     position: absolute;
-    top: 14%;
+    top: 15%;
     left: 27%;
     font-size: 20px;
     color: white;
@@ -358,6 +359,7 @@
     cursor: pointer;
     overflow: hidden;
     text-decoration: none;
+    padding: 0px;
 }
 
 .detail_nav_container .chose_tab li a span{

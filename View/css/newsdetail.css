@@ -9,16 +9,19 @@ a{
 }
 .container>.content {
 	position: relative;
-    width: 980px;
+    width: 1170px;
     margin: 0 auto;
     min-height: 1026px;
 }
 .container>.content .leftarea{
-	    float: left;
-    width: 285px;
+float: left;
+    width: 267px;
     min-height: 1026px;
-    background: transparent url("../img/left_bg.jpg") no-repeat right top;
+    border-left: 1px solid #e8e8e8;
 }
+.container>.content .leftarea .left-content{
+	padding-left: 26px;
+	}
 .container>.content .leftarea .section{
 	    padding: 12px 0;
     border-bottom: 1px solid #e8e8e8;
@@ -30,7 +33,10 @@ a{
 }
 .rightarea{
 	    float: right;
-    width: 645px;
+	        height: 1026px;
+    width: 733px;
+    padding-right: 26px;
+    border-right: 1px solid #e8e8e8;
 }
 .rightarea .right-content{
 	padding-bottom: 50px;
@@ -61,4 +67,8 @@ a{
     margin: .8em 0 1.8em;
     color: #333;
     text-indent: 27px;
+}
+.rightarea .right-content .news .article img{
+	display: block;
+	width: 300px;
 }

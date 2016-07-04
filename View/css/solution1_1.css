@@ -469,9 +469,9 @@
 }
 .sidebar{
     position: fixed;
-    right: 10px;
+    right: 0px;
     top: 31%;
-    width: 8%;
+    width: 75px;
     height: 300px;
     list-style: none;
     display: block;
