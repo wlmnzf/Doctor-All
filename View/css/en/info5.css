@@ -23,7 +23,7 @@
   height: 100%;
 }
 .productinfo .container > .content .paraContainer .para1 .righttext {
-  width: 600px;
+  width: 504px;
   text-align: left;
   float: right;
 }
@@ -36,18 +36,17 @@
   height: 700px;
 }
 .productinfo .container > .content .paraContainer .para2 .lefttext {
-  width: 600px;
+  width: 552px;
   text-align: left;
   float: left;
-  margin-left: 40px;
-  margin-top: 150px;
+  margin-top: 201px;
 }
 .productinfo .container > .content .paraContainer .para2 .lefttext p {
   font-size: 24px;
   font-weight: 400;
 }
 .productinfo .container > .content .paraContainer .para2 .rightpic {
-  width: 400px;
+  width: 407px;
   height: 500px;
   float: right;
 }

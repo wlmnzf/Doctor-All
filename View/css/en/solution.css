@@ -2,15 +2,14 @@
 {
 	height:100px;
 	background-color:#f0f0f0;
-	width:125%;
-	margin-left:-12.5%;
+	width:100%;
 	position:relative;
 	    padding-bottom: 15px;
 }
 
 .solution .container > .content
 {
-	width:1170px;
+	width:960px;
 	/*max-width:1080px;*/
 	margin:0 auto;
 }
@@ -18,7 +17,7 @@
     position: fixed;
     right: 0px;
     top: 31%;
-    width: 75px;
+    width: 100px;
     height: 300px;
     list-style: none;
     display: block;

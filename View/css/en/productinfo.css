@@ -1,6 +1,6 @@
 .productinfo  .container > .content
 {
-	width:1170px;
+	width:960px;
 	/*max-width:1080px;*/
 	margin:0 auto;
 	
@@ -246,7 +246,7 @@
     position: fixed;
     right: 0px;
     top: 31%;
-    width: 75px;
+    width: 100px;
     height: 300px;
     list-style: none;
     display: block;

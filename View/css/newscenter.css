@@ -9,13 +9,13 @@ a{
 }
 .news .container>.content {
 	position: relative;
-    width: 1170px;
+    width: 960px;
     margin: 0 auto;
     min-height: 1026px;
 }
 .container>.content .leftarea{
 float: left;
-    width: 267px;
+    width: 200px;
     min-height: 1026px;
     border-left: 1px solid #e8e8e8;
 }
@@ -33,7 +33,7 @@ float: left;
 }
 .rightarea{
 	    float: right;
-    width: 733px;
+    width: 650px;
         height: 1026px;
     padding-right: 26px;
     border-right: 1px solid #e8e8e8;

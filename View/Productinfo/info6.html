@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>创辉医疗电子设备-产品信息</title>
+		<link rel="stylesheet" href="__CSS__/global.css" />
+		<link rel="stylesheet" href="__CSS__/productinfo.css">
+		<link rel="stylesheet" href="__CSS__/info6.css">
+		<script src="__CSS__/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="__CSS__/bower_components/jquery.cookie/jquery.cookie.js"></script>
+		<script src="__JS__/lang.js"></script>
+	</head>
+
+	<body class="productinfo info6">
+		<div class="container">
+
+			<include file="./Application/Doctor/View/Global/head.html" />
+
+			<div class="location">
+				<div class="position">
+					<span class="text"><a href="{:U('Doctor/Index/index','','')}">首页</a></span>
+					<span class="split">/</span>
+					<span class="text"><a href="{:U('Doctor/Productinfo/ProductInfo','','')}">产品信息</a></span>
+					<span class="split">/</span>
+					<span class="text">电子内窥镜</span>
+					<span class="split">/</span>
+					<span class="text">人流镜</span>
+				</div>
+			</div>
+
+			<div id="content" class="content">
+				<div class="poster1">
+					<div class="lefttitle">
+						<div class="uppertitle">
+							高清可视
+						</div>
+						<div class="bigone">
+							一次性宫腔吸引管
+						</div>
+						<div class="smallt1">
+							定点拨出
+						</div>
+						<div class="smallt2">
+							高清防水
+						</div>
+					</div>
+					<div class="houjingpic">
+						<img src="__IMG__/renliupic.png" />
+					</div>
+					<div class="para1">
+						焦距范围0-30mm<br />30万像素<br />85°视野角
+					</div>
+					<div class="para2">
+						管身直径小于7mm
+					</div>
+					<div class="para3">
+						工作吸引通道大于5mm
+					</div>
+				</div>
+				<div class="poster2">
+					<div class="midtitle">
+						<div class="headline">
+							适用于宫腔观察和十周以内要求终止妊娠者
+						</div>
+
+					</div>
+					<div class="linelist">
+						<div class="smline">
+							<img src="__IMG__/xiaopic.png" />
+							<span class="tinyone">通过清晰视频实现可视引导</span>
+						</div>
+						<div class="smline">
+							<img src="__IMG__/xiaopic.png" />
+							<span class="tinyone">超大吸引口可定点剥离孕囊 </span>
+						</div>
+						<div class="smline">
+							<img src="__IMG__/xiaopic.png" />
+							<span class="tinyone">一次性使用可防止交叉感染</span>
+						</div>
+					</div>
+
+				</div>
+				<div class="poster3">
+					<div class="mtitle">
+						<span>产品特点</span>
+					</div>
+					<div class="functext colored">
+						摄像头在密封情况下拍摄，防水高清  
+					</div>
+					<div class="functext">
+						视频引导，降低传统盲刮带来的手术风险
+					</div>
+					<div class="functext colored">
+						实时观察子宫情况，提高手术成功率，降低对生殖系统的伤害
+					</div>
+				</div>
+				<div class="poster4">
+					<div class="mtitle">
+						<span>具体参数</span>
+					</div>
+					<div class="functext colored">
+						30万像素专用摄像头 
+					</div>
+					<div class="functext">
+						镜头85°视野角 
+					</div>
+					<div class="functext colored">
+						管身直径＞7mm
+					</div>
+					<div class="functext">
+						工作吸引通道＞5mm
+					</div>
+				</div>
+			</div>
+
+			<div class="sidebar visible-lg">
+        	<a href="{:U('Doctor/Productinfo/productmain','','')}" class="sidetitle">产品</a>
+        	<ul>
+        		<li><a href="../Productinfo/info2.html">可视喉镜</a></li>
+        		<li><a href="../Productinfo/info6.html"class="stronger">人流镜</a></li>
+        		<li><a href="../Productinfo/info4.html">医用体温贴</a></li>
+        		<li><a href="../Productinfo/info7.html">家庭体温贴</a></li>
+        		<li><a href="../Productinfo/info1.html">肺功能计</a></li>
+        		<li><a href="../Productinfo/info5.html">雾化器</a></li>
+        	</ul>
+        	<a href="{:U('Doctor/Solution/solutionmain','','')}" class="sidetitle">解决方案</a>
+        	<ul>
+        		<li><a href="../Solution/solution1.html" >内窥镜</a></li>
+        		<li><a href="../Solution/solution2.html">环境监控</a></li>
+        		<li><a href="../Productinfo/info3.html">压力监测</a></li>
+        		<li><a href="../Solution/solution3.html">冷链监控</a></li>
+        	</ul>
+        </div>
+			<include file="./Application/Doctor/View/Global/footer.html" />
+
+		</div>
+	</body>
+
+</html>

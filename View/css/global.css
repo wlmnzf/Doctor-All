@@ -1,7 +1,7 @@
 body,html{margin:0;padding:0;height:100%;}
 body
 {
-	min-width:1150px;
+	min-width:960px;
 	margin: 0; 
 	padding:0; 
 	height: 100%; 
@@ -39,7 +39,7 @@ body .container > .content
 
 .head .line
 {
-  width:80%;
+  width:960px;
   /*max-width:1080px;*/	
   margin:0 auto;
 }
@@ -97,10 +97,9 @@ body .container > .content
 }
 .head .nav
 {
-	min-width: 620px;
+	width: 728px;
 	float:left;
-    margin-top: 36px;
-    margin-right:85px
+    margin-top: 21px;
    
 }
 .head .nav a >div,.head .nav  >div
@@ -120,7 +119,7 @@ body .container > .content
 {
 	 /*white-space:nowrap;*/
 
-	width:90px;
+	width:121px;
 	float:left;
 	text-align:center;
 	height:30px;
@@ -312,7 +311,7 @@ body .container > .content
 	position: absolute; 
     bottom: 0; 
 
-	height:175px;
+	height:195px;
 	background-color: #cbced5;
 	margin-top:25px;
 	clear:both;
@@ -331,7 +330,7 @@ body .container > .content
 }
 .footer .footer_content
 {
-	width:1170px;
+	width:960px;
 	/*max-width:1080px;*/
 	margin:0 auto;
 	height:100%;
@@ -376,7 +375,7 @@ body .container > .content
 	width:90px;
 	height:90px;
 	background-size:100% 100%;
-	margin:0px 20px 0 20px;
+	margin:0px 6px 0 0px;
 	/*margin-top:33px;*/
 }
 
@@ -384,7 +383,16 @@ body .container > .content
 {
 	font-size:13px;
 }
-
+.footer .footer_content .icp{
+	
+    float: left;
+    width: 100%;
+    text-align: center;
+	margin-top: 45px;
+}
+.footer .footer_content .icp label{
+	font-size: 12px;
+}
 
 /* ========== */
 /* = 位置信息 = */
@@ -403,7 +411,7 @@ body .container > .content
 
 .location .position
 {
-	width: 1170px;
+	width: 960px;
 	margin: 0 auto;
 	font-size: 17px;
 }
@@ -467,4 +475,12 @@ body .container > .content
   -moz-osx-font-smoothing: grayscale;
   color: #5D5F63;
     
+}
+.visible-lg {
+  display: none !important;
+}
+@media only screen and (min-width: 1200px) {
+	.visible-lg{
+		display: block !important;
+	}
 }

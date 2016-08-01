@@ -1,12 +1,14 @@
-777777777.partner .container > .content
+.partner .container > .content
 {
 	margin-top:50px;
+	width: 960px;
+    margin: 0 auto;
 	/*padding-left:20px ;*/
 }
 .partner .container > .content .partneritem 
 {
 	width:60%;
-	height:40px;
+	height:84px;
 	margin:0 auto;
 	/*max-width:1080px;*/
 	
@@ -14,12 +16,13 @@
 	position:relative;
 	margin-top:50px;
 	margin-bottom:50px;
+	
 }
 
 .partner .container > .content .line
 {
 	width:2px;
-	height:90px;
+	height:134px;
 	border-left:2px #babdc4 solid;
 	float: left;
     margin-top: -20px;
@@ -41,8 +44,8 @@
 .partner .container > .content  .partneritem  img
 {
 	width:200px;
-	height:72px;
-	margin-top:5px;
+	height:135px;
+	margin-top:-5px;
 	
 	margin-left:50px;
 	float:left;

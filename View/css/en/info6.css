@@ -1,0 +1,159 @@
+.info6 .container > .content {
+  height: 2100px;
+}
+.info6 .container > .content .poster1 {
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+.info6 .container > .content .poster1 .lefttitle {
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  background-image: url("../../img/akuang.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 255px;
+  height: 190px;
+}
+.info6 .container > .content .poster1 .lefttitle .uppertitle {
+  position: absolute;
+  left: 150px;
+  top: 0;
+  font-size: 24px;
+  color: white;
+  width: 50px;
+}
+.info6 .container > .content .poster1 .lefttitle .bigone {
+  position: absolute;
+  left: 25px;
+  top: 82px;
+  width: 700px;
+  font-size: 35px;
+  color: #9b9796;
+}
+.info6 .container > .content .poster1 .lefttitle .smallt1 {
+  position: absolute;
+  word-break: break-all;
+  left: 133px;
+  top: 153px;
+  color: #d2d1d1;
+  width: 10px;
+}
+.info6 .container > .content .poster1 .lefttitle .smallt2 {
+  position: absolute;
+  word-break: break-all;
+  left: 162px;
+  top: 153px;
+  color: #d2d1d1;
+  width: 10px;
+}
+.info6 .container > .content .poster1 .houjingpic {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.info6 .container > .content .poster1 .houjingpic img {
+  position: absolute;
+  display: block;
+  left: 39%;
+  bottom: 39%;
+  width: 250px;
+}
+.info6 .container > .content .poster1 .para1 {
+  position: absolute;
+  width: 200px;
+  font-size: 19px;
+  left: 24%;
+  bottom: 47%;
+  text-align: right;
+}
+.info6 .container > .content .poster1 .para2 {
+  position: absolute;
+  width: 200px;
+  font-size: 19px;
+  right: 18%;
+  top: 35%;
+}
+.info6 .container > .content .poster1 .para3 {
+  position: absolute;
+  width: 200px;
+  font-size: 19px;
+  right: 17%;
+  bottom: 50%;
+}
+.info6 .container > .content .poster2 {
+  height: 400px;
+  width: 100%;
+  margin-top: -200px;
+}
+.info6 .container > .content .poster2 .midtitle {
+  width: 600px;
+  height: 96px;
+  background-color: #D6F0F9;
+}
+.info6 .container > .content .poster2 .midtitle .headline {
+  font-size: 26px;
+  margin-left: 15px;
+  font-weight: 400;
+  height: 100%;
+  line-height: 48px;
+  text-align: left;
+}
+.info6 .container > .content .poster2 .linelist {
+  margin-top: 40px;
+}
+.info6 .container > .content .poster2 .linelist .smline {
+  margin-bottom: 20px;
+}
+.info6 .container > .content .poster2 .linelist .smline img {
+  width: 24px;
+}
+.info6 .container > .content .poster2 .linelist .smline span {
+  padding-left: 15px;
+  font-size: 24px;
+  color: #847f7f;
+}
+.info6 .container > .content .poster3 {
+  width: 100%;
+}
+.info6 .container > .content .poster3 .mtitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.info6 .container > .content .poster3 .mtitle span {
+  font-size: 37px;
+  font-weight: 400;
+  color: #847F7F;
+}
+.info6 .container > .content .poster3 .functext {
+  text-indent: 50px;
+  font-size: 24px;
+  padding: 5px;
+  font-weight: 400;
+}
+.info6 .container > .content .poster3 .colored {
+  background-color: #f0f0f0;
+}
+.info6 .container > .content .poster4 {
+  width: 100%;
+  margin-top: 100px;
+}
+.info6 .container > .content .poster4 .mtitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.info6 .container > .content .poster4 .mtitle span {
+  font-size: 37px;
+  font-weight: 400;
+  color: #847F7F;
+}
+.info6 .container > .content .poster4 .functext {
+  text-indent: 50px;
+  font-size: 24px;
+  padding: 5px;
+  font-weight: 400;
+}
+.info6 .container > .content .poster4 .colored {
+  background-color: #f0f0f0;
+}

@@ -1,7 +1,7 @@
 body,html{margin:0;padding:0;height:100%;}
 body
 {
-	min-width:1150px;
+	min-width:960px;
 	margin: 0; 
 	padding:0; 
 	height: 100%; 
@@ -39,7 +39,7 @@ body .container > .content
 
 .head .line
 {
-  width:80%;
+  width:960px;
   /*max-width:1080px;*/	
   margin:0 auto;
 }
@@ -96,10 +96,9 @@ body .container > .content
 }
 .head .nav
 {
-	min-width: 620px;
+	width: 728px;
 	float:left;
-    margin-top: 36px;
-    margin-right:85px
+    margin-top: 21px;
    
 }
 .head .nav a >div,.head .nav  >div
@@ -118,14 +117,14 @@ body .container > .content
 {
 	 /*white-space:nowrap;*/
 
-	width:90px;
+	width:121px;
 	float:left;
 	text-align:center;
 	height:30px;
 	line-height:30px;
 	font-weight: 500;
-	font-size:15px;
-	padding:3px 5px;
+	font-size:18px;
+	padding:0px;
 }
 
 .head .nav .showtab
@@ -168,7 +167,9 @@ body .container > .content
 
 .head .nav .one
 {
-	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
   /*  border-left: 1px solid #9E9E9E;*/
     margin: 0 20px;
 	width: auto;
@@ -179,7 +180,7 @@ body .container > .content
     /*padding-left: 40px;*/
     margin-top:20px;
 
-   float: left;
+    float:left;
     overflow: hidden;
     zoom: 1;
     height: auto;
@@ -206,8 +207,8 @@ body .container > .content
 }
 .head .nav ul li a
 {
-	text-decoration: none;
 	padding:10px;
+	text-decoration: none;
 	/*display:block;float:left; width: 200px;*/ 
 }
 .head .nav div:hover .showtab
@@ -297,7 +298,7 @@ body .container > .content
 	position: absolute; 
     bottom: 0; 
 
-	height:175px;
+	height:195px;
 	background-color: #cbced5;
 	margin-top:25px;
 	clear:both;
@@ -316,7 +317,7 @@ body .container > .content
 }
 .footer .footer_content
 {
-	width:1170px;
+	width:960px;
 	/*max-width:1080px;*/
 	margin:0 auto;
 	height:100%;
@@ -330,7 +331,7 @@ body .container > .content
 	max-width: 85px;
 	/*overflow:hidden;*/
 	float:left;
-	margin:20px 30px 0px 30px
+	margin:20px 10px 0px 10px
 }
 .footer .text .title
 {
@@ -340,7 +341,7 @@ body .container > .content
 }
 .footer .contact
 {
-	width: 480px;
+	width: 456px;
 }
 
 
@@ -364,7 +365,7 @@ body .container > .content
 	width:70px;
 	height:70px;
 	background-size:100% 100%;
-	margin:0px 20px 0 20px;
+	margin:0px 6px 0 0px;
 	/*margin-top:33px;*/
 }
 
@@ -372,8 +373,16 @@ body .container > .content
 {
 	font-size:13px;
 }
-
-
+.footer .footer_content .icp{
+	
+    float: left;
+    width: 100%;
+    text-align: center;
+	margin-top: 45px;
+}
+.footer .footer_content .icp label{
+	font-size: 12px;
+}
 /* ========== */
 /* = 位置信息 = */
 /* ========== */
@@ -391,7 +400,7 @@ body .container > .content
 
 .location .position
 {
-	width: 1170px;
+	width: 960px;
 	margin: 0 auto;
 	font-size: 17px;
 }
@@ -456,4 +465,11 @@ body .container > .content
   color: #5D5F63;
     
 }
-
+.visible-lg {
+  display: none !important;
+}
+@media only screen and (min-width: 1200px) {
+	.visible-lg{
+		display: block !important;
+	}
+}

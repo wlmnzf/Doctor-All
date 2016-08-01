@@ -19,7 +19,13 @@ class ProductinfoController extends Controller {
 	public function info5(){
         $this->show();
     }
-	public function ProductInfo(){
+	public function info6(){
+        $this->show();
+    }
+	public function info7(){
+        $this->show();
+    }
+	public function productmain(){
         $this->show();
     }
 }

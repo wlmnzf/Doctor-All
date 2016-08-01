@@ -43,18 +43,18 @@
 }
 .solution3 .container > .content .tab .cangchu
 {
-    top: 58%;
-    left: 32%;
+    top: 59%;
+    left: 30%;
 }
 .solution3 .container > .content .tab .chezai
 {
     top: 40%;
-    left: 41%;
+    left: 40%;
 }
 .solution3 .container > .content .tab .yunshu
 {
-    top: 40%;
-    left: 51%;
+    top: 22%;
+    left: 46%;
 }
 .solution3 .container > .content .tab .cangwang
 {
@@ -166,7 +166,7 @@ top: 71%;
     /* width: 30%; */
     height: 19%;
     top: 81%;
-    right: 13%;
+    right: 17%;
     /* text-align: center; */
     font-size: 15px;
     color:#d2d1d1;
@@ -181,7 +181,7 @@ top: 71%;
     /* width: 30%; */
     height: 19%;
     top: 81%;
-    right: 5%;
+    right: 3%;
     /* text-align: center; */
     font-size: 15px;
     color:#d2d1d1;
@@ -328,7 +328,7 @@ top: 71%;
 .solution3 .container > .content  .introduce .information .pic .text
 {
     position: absolute;
-    bottom: 20%;
+    bottom: 14%;
     right: 0;
     text-align: center;
 }
@@ -479,16 +479,16 @@ top: 71%;
 	position: absolute;
     top: 32%;
     right: 0px;
-    width: 300px;
+    width: 230px;
     font-size: 10px;
 }
 
 .solution3 .container > .content  .introduce1 .pic_list .pic .t4
 {
 	position: absolute;
-    top: 44%;
+    top: 59%;
     right: 0px;
-    width: 300px;
+    width: 173px;
     font-size: 10px;
 }
 

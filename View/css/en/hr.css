@@ -1,6 +1,6 @@
 .hr .container > .content
 {
-	width:80%;
+	width:960px;
 	margin:0 auto 30px auto;
 	/*max-width:1080px*/
 	
@@ -9,17 +9,13 @@
 
 .hr .tab
 {
-	width:125%;
-	/*background:url(../../img/hr_bc.png) no-repeat;
-	background-size:100% 100%;*/
-	margin-left:-12.5%;
-	padding-top:30px;
-	padding-bottom: 30px;;
+	width:100%;
+	
 }
 
 .hr .container > .content .hr_list
 {
-	width:50%;
+	width:100%;
 	margin:0 auto;
 	
 }

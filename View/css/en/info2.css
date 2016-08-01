@@ -63,7 +63,7 @@
   position: absolute;
   width: 200px;
   font-size: 19px;
-  left: 23%;
+  left: 22%;
   bottom: 23%;
   text-align: right;
 }
@@ -71,14 +71,14 @@
   position: absolute;
   width: 200px;
   font-size: 19px;
-  right: 16%;
-  top: 38%;
+  right: 11%;
+  top: 39%;
 }
 .info2 .container > .content .poster1 .para3 {
   position: absolute;
   width: 200px;
   font-size: 19px;
-  right: 16%;
+  right: 11%;
   bottom: 22%;
 }
 .info2 .container > .content .poster2 {
@@ -128,10 +128,11 @@
 }
 .info2 .container > .content .poster3 {
   height: 300px;
-  margin: 50px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .info2 .container > .content .poster3 .lefttext {
-  width: 550px;
+  width: 480px;
   height: 100%;
   float: left;
   margin-top: 24px;
@@ -141,7 +142,7 @@
   margin: 10px;
 }
 .info2 .container > .content .poster3 .rightpic {
-  width: 550px;
+  width: 480px;
   float: right;
   margin-top: 34px;
 }

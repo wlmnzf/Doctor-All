@@ -1,0 +1,200 @@
+.productinfo .container > .content .box {
+  position: relative;
+}
+.productinfo .container > .content .box .above {
+  position: relative;
+}
+.productinfo .container > .content .box .above .title {
+  position: absolute;
+  bottom: 10%;
+  font-size: 50px;
+  right: 3%;
+  color: #0e8cd0;
+  letter-spacing: 4px;
+}
+.productinfo .container > .content .para1 .chose_tab {
+  width: 700px;
+  margin: 0 auto;
+  height: 50px;
+  border-bottom: 5px groove black;
+}
+.productinfo .container > .content .para1 .chose_tab li {
+  display: block;
+  width: 120px;
+  height: 100%;
+}
+.productinfo .container > .content .para1 .chose_tab li a {
+  text-decoration: none;
+  display: block;
+  height: 50px;
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0;
+}
+.productinfo .container > .content .para1 .chose_tab > .active {
+  border-bottom: 5px groove #0e8cd0;
+}
+.productinfo .container > .content .para1 .chose_tab > .active a {
+  color: #0E8CD0;
+}
+.productinfo .container > .content .para1 .tab-content {
+  height: 400px;
+  width: 100%;
+  margin-top: 50px;
+}
+.productinfo .container > .content .para1 .tab-content .content {
+  margin-left: 120px;
+}
+.productinfo .container > .content .para1 .tab-content .content img {
+  width: 100px;
+  float: left;
+}
+.productinfo .container > .content .para1 .tab-content .content .childtext {
+  width: 400px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.productinfo .container > .content .para1 .tab-content .content .childtext .text {
+  margin-top: 17px;
+  font-size: 18px;
+  word-spacing: 10px;
+}
+.productinfo .container > .content .para2 {
+  height: 500px;
+}
+.productinfo .container > .content .para2 .title {
+  width: 700px;
+  height: 70px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../img/bluekuang.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.productinfo .container > .content .para2 .title span {
+  font-size: 36px;
+  color: #3F8BC8;
+}
+.productinfo .container > .content .para2 .contents {
+  height: 350px;
+}
+.productinfo .container > .content .para2 .contents .twopic {
+  width: 360px;
+  margin-left: 120px;
+  margin-top: 50px;
+  float: left;
+}
+.productinfo .container > .content .para2 .contents .twopic .first {
+  width: 70px;
+}
+.productinfo .container > .content .para2 .contents .twopic .second {
+  width: 280px;
+}
+.productinfo .container > .content .para2 .contents .paragraph {
+  width: 350px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 90px;
+}
+.productinfo .container > .content .para2 .contents .paragraph .lines {
+  margin-top: 17px;
+  font-size: 18px;
+  word-spacing: 10px;
+}
+.productinfo .container > .content .para3 {
+  margin-bottom: 50px;
+}
+.productinfo .container > .content .para3 .title {
+  background-image: url("../img/blueshit.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 36px;
+  width: 700px;
+  height: 70px;
+  text-align: center;
+  margin: 0 auto;
+  color: #3F8BC8;
+}
+.productinfo .container > .content .para3 .bigpic {
+  position: relative;
+}
+.productinfo .container > .content .para3 .bigpic div {
+  word-spacing: 8px;
+}
+.productinfo .container > .content .para3 .bigpic .lines {
+  margin-left: 130px;
+  height: 30px;
+  font-size: 18px;
+}
+.productinfo .container > .content .para3 .bigpic .five {
+  margin-top: 30px;
+}
+.productinfo .container > .content .para3 .bigpic .shittube {
+  position: absolute;
+  bottom: 3px;
+  left: 414px;
+}
+.productinfo .container > .content .para3 .bigpic .shittube .line1 {
+  padding-top: 8px;
+  font-size: 18px;
+}
+/*bootstrap stuff*/
+nav {
+  display: block;
+}
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li.disabled > a {
+  color: #777;
+}
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.nav > li > a > img {
+  max-width: none;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555;
+}
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active {
+  display: block;
+}
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

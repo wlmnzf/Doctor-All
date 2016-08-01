@@ -66,18 +66,18 @@ function start_turning(){
 
 $(document).ready(function(){
 	 banner_init();
-//	 start_turning();
+	 start_turning();
 	 
 	 $(".left-arrow").click(function(){
-//	 	clearInterval(idInt);
+	 	clearInterval(idInt);
 	 	 show_last();
-//	 	 start_turning();
+	 	 start_turning();
 	 })
 	 
 	 $(".right-arrow").click(function(){
-//	 	clearInterval(idInt);
+	 	clearInterval(idInt);
 	 	 show_next();
-//	 	 start_turning();
+	 	 start_turning();
 	 })
 })
 
